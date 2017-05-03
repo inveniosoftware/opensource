@@ -1,0 +1,869 @@
+orgs:
+  inveniosoftware:
+    teams:
+      architects:
+        permission: admin
+        repositories: "*"
+        members:
+          - drjova
+          - egabancho
+          - lnielsen
+          - nharraud
+          - tiborsimko
+      coordinators:
+        members:
+          - audub
+          - jbenito3
+          - kaplun
+          - lnielsen
+          - ludmilamarian
+          - tiborsimko
+      developers:
+        permission: push
+        repositories: "*"
+        members:
+          - costaflavio
+          - aaccomazzi
+          - adrianp
+          - alizeepace
+          - anastass
+          - andrewm89
+          - annatrz
+          - antonis-manaras
+          - audub
+          - aw-bib
+          - bavaria95
+          - bittirousku
+          - blixhavn
+          - bouzlibop
+          - bruno314
+          - cbacchi
+          - CharlotteIrisC
+          - danmichaelo
+          - david-caro
+          - ddaze
+          - diegodelemos
+          - DorsivalG
+          - drjova
+          - Dziolas
+          - egabancho
+          - epsallida
+          - etzemis
+          - fatiherikli
+          - fjorba
+          - fpoli
+          - frecar
+          - gfavre
+          - giokokos
+          - GiorgosPa
+          - greut
+          - gszpura
+          - hachreak
+          - HarryCutts
+          - harunurhan
+          - helix84
+          - hjhsalo
+          - invenio-developers
+          - ioannistsanaktsidis
+          - jacenkow
+          - jacquerie
+          - JakeCowton
+          - jalavik
+          - jan44
+          - JavierDelgadoFernandez
+          - jbenito3
+          - jcboyd
+          - jeromecaffaro
+          - jgarcial
+          - jma
+          - jmacmahon
+          - jmartinm
+          - jochenklein
+          - jrbl
+          - jstypka
+          - jsvgoncalves
+          - jvican
+          - kaplun
+          - kasioumis
+          - Kennethhole
+          - Kjili
+          - kneczaj
+          - konstantinoskostis
+          - krzysztof
+          - ksachs
+          - Letreguilly
+          - ludmilamarian
+          - makistsantekidis
+          - marioskogias
+          - mihaibivol
+          - MinnSoe
+          - MSusik
+          - mvesper
+          - natsheh
+          - nharraud
+          - nikofil
+          - njbeyli
+          - nkalodimas
+          - noumar
+          - omelkonian
+          - Osso
+          - otron
+          - pamfilos
+          - Panos512
+          - PaulinaLach
+          - pbroz
+          - pedrogaudencio
+          - petros-ioannidis
+          - ppiotr
+          - PXke
+          - RaoOfPhysics
+          - raqueljimenez
+          - remileduc
+          - rikirenz
+          - robertwinchell
+          - robk5uj
+          - romanchyla
+          - rsripada
+          - SamiHiltunen
+          - sbujam
+          - sefeg
+          - shesselbach
+          - slint
+          - sourabhlal
+          - spirosdelviniotis
+          - Sporeal
+          - switowski
+          - Theer108
+          - traviscb
+          - tsgit
+          - valkyriesavage
+          - WohthaN
+          - zazasa
+          - zzacharo
+    repositories:
+      cernservicexml:
+        description: Small library to generate a CERN XSLS Service XML.
+        maintainers:
+          - lnielsen
+          - egabancho
+        state: stable
+        type: independent
+      citeproc-py-styles:
+        description: CSL styles for citeproc-py.
+        maintainers:
+          - lnielsen
+          - slint
+        state: alpha
+        type: independent
+      claimstore:
+        description: ClaimStore
+        maintainers:
+          - jbenito
+        state: alpha
+        type: service
+      cookiecutter-invenio-module:
+        description: Cookiecutter - Invenio Module Template
+        maintainers:
+          - drjova
+          - egabancho
+          - lnielsen
+          - nharraud
+          - tiborsimko
+        state: alpha
+        type: core
+      datacite:
+        description: Python API wrapper for the DataCite Metadata Store API.
+        maintainers:
+          - lnielsen
+        state: stable
+        type: independent
+      dcxml:
+        description: Dublin Core XML generation from Python dictionaries.
+        maintainers:
+          - lnielsen
+        state: stable
+        type: independent
+      dictdiffer:
+        description: 'Dictdiffer is a module that helps you to diff and patch dictionaries. '
+        maintainers:
+          - jirikuncar
+          - tiborsimko
+        state: stable
+        type: independent
+      dojson:
+        description: Simple pythonic JSON to JSON converter.
+        maintainers:
+          - tiborsimko
+        state: stable
+        type: independent
+      domapping:
+        description: Package generating elasticsearch mapping from jsonschemas
+        maintainers:
+          - nharraud
+        state: alpha
+        type: independent
+      doschema:
+        description: Utilities to work with JSON Schemas.
+        maintainers:
+          - nharraud
+        state: alpha
+        type: independent
+      flask-breadcrumbs:
+        description: Flask-Breadcrumbs is a Flask extension that adds support for generating
+          site breadcrumb navigation.
+        maintainers:
+          - drjova
+        state: stable
+        type: independent
+      flask-celeryext:
+        description: Simple integration layer between Celery and Flask.
+        maintainers:
+          - lnielsen
+        state: stable
+        type: independent
+      flask-cli:
+        description: Flask-CLI is a backport of Flask 1.0's new click integration to Flask
+          0.10.
+        maintainers:
+          - lnielsen
+        state: stable
+        type: independent
+      flask-iiif:
+        description: Flask-IIIF is permitting easy integration with the International
+          Image Interoperability Framework (IIIF) API standards.
+        maintainers:
+          - drjova
+        state: alpha
+        type: independent
+      flask-menu:
+        description: Flask-Menu is a Flask extension that adds support for generating
+          menus.
+        maintainers:
+          - drjova
+        state: stable
+        type: independent
+      flask-notifications:
+        description: Flask-Notifications
+        maintainers: []
+        state: alpha
+        type: independent
+      flask-security-fork:
+        description: 'Fork of Flask-Security: quick and simple security for Flask applications.'
+        maintainers:
+          - jirikuncar
+          - lnielsen
+        state: stable
+        type: independent
+      flask-sitemap:
+        description: Flask-Sitemap is a Flask extension helping with sitemap generation.
+        maintainers:
+          - tiborsimko
+        state: stable
+        type: independent
+      flask-sso:
+        description: Flask Single-Sign-On Extension
+        maintainers:
+          - egabancho
+        state: alpha
+        type: independent
+      flask-webpackext:
+        description: "*** WORK IN PROGRESS *** Webpack integration for Flask."
+        maintainers:
+          - lnielsen
+          - drjova
+        state: planning
+        type: independent
+      generator-invenio-js-module:
+        description: ''
+        maintainers:
+          - drjova
+          - egabancho
+          - lnielsen
+          - nharraud
+          - tiborsimko
+        state: alpha
+        type: core
+      idutils:
+        description: Small Python library to validate persistent identifiers used in scholarly
+          communication.
+        maintainers:
+          - lnielsen
+        state: stable
+        type: independent
+      intbitset:
+        description: Python C-based extension implementing fast integer bit sets
+        maintainers:
+          - kaplun
+          - tiborsimko
+        state: stable
+        type: independent
+      invenio:
+        description: Invenio digital library framework
+        maintainers:
+          - egabancho
+          - lnielsen
+          - tiborsimko
+        state: alpha
+        type: core
+      invenio-access:
+        description: Invenio module for common role based access control.
+        maintainers:
+          - egabancho
+          - tiborsimko
+        state: alpha
+        type: core
+      invenio-accounts:
+        description: Invenio module for managing user accounts.
+        maintainers:
+          - lnielsen
+          - nharraud
+        state: beta
+        type: core
+      invenio-accounts-rest:
+        description: Invenio modules that adds accounts REST API.
+        maintainers:
+          - nharraud
+        state: alpha
+        type: addon
+      invenio-acquisitions:
+        description: ''
+        maintainers:
+          - egabancho
+        state: planning
+        type: addon
+      invenio-admin:
+        description: Invenio admin module.
+        maintainers:
+          - lnielsen
+        state: beta
+        type: base
+      invenio-app:
+        description: WSGI, Celery and CLI applications for Invenio flavours.
+        maintainers:
+          - lnielsen
+          - egabancho
+        state: alpha
+        type: core
+      invenio-app-ils:
+        description: Integrated Library System flavour of Invenio.
+        maintainers:
+          - lnielsen
+        state: alpha
+        type: core
+      invenio-archivematica:
+        description: "*** WORK IN PROGRESS *** "
+        maintainers:
+          - remileduc
+          - egabancho
+        state: planning
+        type: addon
+      invenio-assets:
+        description: Invenio media assets management module.
+        maintainers:
+          - drjova
+          - lnielsen
+        state: beta
+        type: base
+      invenio-authorities:
+        description: Invenio module that adds support for authority records
+        maintainers:
+          - tiborsimko
+        state: planning
+        type: addon
+      invenio-base:
+        description: Base package for building the Invenio application.
+        maintainers:
+          - lnielsen
+          - nharraud
+          - tiborsimko
+        state: alpha
+        type: base
+      invenio-celery:
+        description: Integration layer between Celery and Invenio.
+        maintainers:
+          - lnielsen
+        state: beta
+        type: base
+      invenio-circulation:
+        description: ''
+        maintainers:
+          - egabancho
+        state: planning
+        type: addon
+      invenio-client:
+        description: Python library permitting to connect to remote Invenio digital library
+          instances.
+        maintainers: []
+        state: planning
+        type: addon
+      invenio-collections:
+        description: Invenio module for organizing metadata into collections.
+        maintainers:
+          - tiborsimko
+        state: alpha
+        type: addon
+      invenio-comments:
+        description: Invenio module that adds record commenting feature.
+        maintainers: []
+        state: planning
+        type: addon
+      invenio-communities:
+        description: Invenio communities module.
+        maintainers:
+          - krzysztof
+          - lnielsen
+          - nharraud
+        state: alpha
+        type: addon
+      invenio-config:
+        description: Invenio configuration loading module.
+        maintainers:
+          - drjova
+          - lnielsen
+          - tiborsimko
+        state: beta
+        type: base
+      invenio-csl-js:
+        description: ''
+        maintainers:
+          - lnielsen
+          - slint
+        state: alpha
+        type: addon
+      invenio-csl-rest:
+        description: REST API for Citation Style Language styles.
+        maintainers:
+          - lnielsen
+          - slint
+        state: alpha
+        type: addon
+      invenio-db:
+        description: Database management for Invenio.
+        maintainers:
+          - lnielsen
+          - egabancho
+        state: beta
+        type: base
+      invenio-demosite:
+        description: Invenio demo site overlay
+        maintainers: []
+        state: alpha
+        type: addon
+      invenio-deposit:
+        description: Invenio module for depositing metadata using workflows.
+        maintainers:
+          - lnielsen
+          - egabancho
+        state: alpha
+        type: core
+      invenio-files-js:
+        description: Invenio-Files-JS
+        maintainers:
+          - drjova
+        state: alpha
+        type: core
+      invenio-files-rest:
+        description: REST API for uploading/downloading files for Invenio.
+        maintainers:
+          - lnielsen
+          - drjova
+        state: alpha
+        type: core
+      invenio-formatter:
+        description: Invenio module for formatting the bibliographic records.
+        maintainers:
+          - lnielsen
+          - drjova
+        state: beta
+        type: base
+      invenio-github:
+        description: GitHub integration for Invenio.
+        maintainers:
+          - lnielsen
+        state: alpha
+        type: addon
+      invenio-groups:
+        description: Invenio module that adds support for user groups.
+        maintainers: []
+        state: planning
+        type: addon
+      invenio-i18n:
+        description: Invenio internationalization module.
+        maintainers:
+          - lnielsen
+          - tiborsimko
+        state: beta
+        type: base
+      invenio-ill:
+        description: ''
+        maintainers:
+          - egabancho
+        state: planning
+        type: addon
+      invenio-indexer:
+        description: Record indexer for Invenio.
+        maintainers:
+          - lnielsen
+          - nharraud
+        state: alpha
+        type: core
+      invenio-jsonschemas:
+        description: Invenio Schema Registry
+        maintainers:
+          - nharraud
+        state: alpha
+        type: core
+      invenio-logging:
+        description: Invenio logging module.
+        maintainers:
+          - lnielsen
+        state: alpha
+        type: base
+      invenio-mail:
+        description: Invenio mail module.
+        maintainers:
+          - lnielsen
+        state: beta
+        type: base
+      invenio-marc21:
+        description: Nice defaults for Invenio overlays using MARC21.
+        maintainers:
+          - tiborsimko
+        state: alpha
+        type: addon
+      invenio-memento:
+        description: Invenio module makes your site Memento compliant.
+        maintainers:
+          - tiborsimko
+        state: alpha
+        type: addon
+      invenio-metrics:
+        description: Invenio module for collecting and publishing metrics.
+        maintainers: []
+        state: planning
+        type: addon
+      invenio-migrator:
+        description: Utilities for migrating past Invenio versions to Invenio 3.0.
+        maintainers:
+        - egabancho
+        state: alpha
+        type: addon
+      invenio-oaiharvester:
+        description: Invenio module for OAI-PMH metadata harvesting between repositories.
+        maintainers:
+          - egabancho
+        state: alpha
+        type: addon
+      invenio-oaiserver:
+        description: Invenio module that adds more fun to the platform.
+        maintainers:
+          - lnielsen
+          - nharraud
+        state: alpha
+        type: core
+      invenio-oauth2server:
+        description: Invenio modules that implements OAuth 2 server.
+        maintainers:
+          - lnielsen
+          - nharraud
+        state: alpha
+        type: core
+      invenio-oauthclient:
+        description: Invenio module that provides OAuth web authorization support.
+        maintainers:
+          - lnielsen
+          - egabancho
+        state: alpha
+        type: core
+      invenio-openaire:
+        description: Invenio module for OpenAIRE integration.
+        maintainers:
+          - lnielsen
+          - krzysztof
+        state: alpha
+        type: addon
+      invenio-opendefinition:
+        description: Invenio module providing integration between Invenio repositories
+          and http://opendefinition.org/.
+        maintainers:
+          - lnielsen
+          - krzysztof
+        state: alpha
+        type: addon
+      invenio-orcid:
+        description: 'ORCID integration for Invenio. '
+        maintainers:
+          - egabancho
+        state: alpha
+        type: addon
+      invenio-pages:
+        description: Invenio module that adds support for static pages.
+        maintainers:
+        - lnielsen
+        state: alpha
+        type: addon
+      invenio-pidstore:
+        description: Invenio module that stores and registers persistent identifiers.
+        maintainers:
+          - lnielsen
+          - egabancho
+        state: beta
+        type: core
+      invenio-pidrelations:
+        description: "**WORK IN PROGRESS** - warning: repo can be squashed and force pushed!"
+        maintainers:
+          - krzysztof
+          - nharraud
+          - slint
+        state: planning
+        type: addon
+      invenio-previewer:
+        description: Invenio module for previewing files.
+        maintainers:
+          - lnielsen
+          - drjova
+        state: alpha
+        type: core
+      invenio-previewer-ispy:
+        description: Invenio previewer extension for ISPY visualization tool.
+        maintainers:
+          - tiborsimko
+        state: alpha
+        type: addon
+      invenio-query-parser:
+        description: Search query parser supporting Invenio and SPIRES search syntax.
+        maintainers:
+          - tiborsimko
+        state: stable
+        type: addon
+      invenio-records:
+        description: Invenio-Records is a metadata storage module.
+        maintainers:
+          - lnielsen
+          - nharraud
+        state: beta
+        type: core
+      invenio-records-files:
+        description: Invenio modules that integrates records and files.
+        maintainers:
+          - lnielsen
+          - drjova
+        state: alpha
+        type: core
+      invenio-records-js:
+        description: Invenio-Records client library for building the web UI.
+        maintainers:
+          - drjova
+        state: alpha
+        type: core
+      invenio-records-rest:
+        description: Invenio records REST API module.
+        maintainers:
+          - lnielsen
+          - nharraud
+        state: alpha
+        type: core
+      invenio-records-ui:
+        description: Invenio records user interface module.
+        maintainers:
+          - lnielsen
+          - drjova
+        state: alpha
+        type: core
+      invenio-rest:
+        description: REST API support for Invenio.
+        maintainers:
+          - lnielsen
+          - drjova
+        state: alpha
+        type: core
+      invenio-search:
+        description: Invenio module for information retrieval.
+        maintainers:
+          - lnielsen
+          - nharraud
+        state: alpha
+        type: core
+      invenio-search-js:
+        description: Invenio-Search client library for building the web UI.
+        maintainers:
+          - drjova
+        state: alpha
+        type: core
+      invenio-search-ui:
+        description: UI for Invenio Search.
+        maintainers:
+          - drjova
+          - lnielsen
+        state: alpha
+        type: core
+      invenio-sequencegenerator:
+        description: Invenio module for generating sequences.
+        maintainers:
+          - egabancho
+        state: alpha
+        type: addon
+      invenio-sipstore:
+        description: Invenio Submission Information Package Store
+        maintainers:
+          - lnielsen
+          - krzysztof
+        state: alpha
+        type: addon
+      invenio-sse:
+        description: Server Send Events for Invenio.
+        maintainers:
+          - egabancho
+          - drjova
+        state: alpha
+        type: addon
+      invenio-stats:
+        description: PROTOTYPE!!! Do not use this module yet.
+        maintainers:
+          - lnielsen
+          - nharraud
+          - dinosk
+        state: planning
+        type: addon
+      invenio-tags:
+        description: Invenio module that adds support for record tagging by authenticated
+          users.
+        maintainers: []
+        state: planning
+        type: addon
+      invenio-theme:
+        description: Invenio standard theme.
+        maintainers:
+          - drjova
+          - lnielsen
+        state: alpha
+        type: base
+      invenio-userprofiles:
+        description: User profiles module for Invenio.
+        maintainers:
+          - lnielsen
+          - nharraud
+        state: alpha
+        type: core
+      invenio-webhooks:
+        description: Invenio module for processing webhook events.
+        maintainers:
+          - lnielsen
+          - egabancho
+        state: alpha
+        type: core
+      invenio-xrootd:
+        description: XRootD file storage support for Invenio.
+        maintainers:
+          - lnielsen
+        state: alpha
+        type: addon
+      inveniosoftware.org:
+        description: Sources of the http://inveniosoftware.org web site.
+        maintainers:
+          - costaflavio
+          - jbenito
+          - lnielsen
+          - tiborsimko
+        state: stable
+        type: service
+      iugw2017:
+        description: Tutorials for Invenio User Group Workshop 2017
+        url: https://indico.cern.ch/event/557956/
+        maintainers:
+          - audub
+          - drjova
+          - egabancho
+          - kaplun
+          - lnielsen
+          - ludmilamarian
+          - nharraud
+          - PXke
+          - remileduc
+          - tiborsimko
+        state: stable
+        type: management
+        travis:
+          active: false
+      jsonresolver:
+        description: JSON data resolver with support for plugins.
+        maintainers:
+          - nharraud
+        state: alpha
+        type: independent
+      kwalitee:
+        description: Tool for checking commit kwalitee.
+        maintainers:
+          - tiborsimko
+        state: alpha
+        type: independent
+      metainvenio:
+        description: CLI management tool for Invenio projects.
+        maintainers:
+          - lnielsen
+          - david-caro
+        state: planning
+        type: independent
+      opensource:
+        description: Repository for issues, documentation and other matters related to management of open source at Invenio Software.
+        maintainers:
+          - lnielsen
+        state: stable
+        type: management
+        travis:
+          active: false
+      pyld:
+        description: JSON-LD processor written in Python
+        maintainers: []
+        state: alpha
+        type: independent
+      pynpm:
+        description: Python interface to your NPM and package.json.
+        maintainers:
+          - lnielsen
+          - drjova
+        state: planning
+        type: independent
+      pywebpack:
+        description: Webpack integration layer for Python.
+        maintainers:
+          - lnielsen
+          - drjova
+        state: planning
+        type: independent
+      requirements-builder:
+        description: Build requirements files from setup.py.
+        maintainers:
+          - lnielsen
+          - egabancho
+        state: stable
+        type: independent
+      timegate:
+        description: A Memento TimeGate
+        maintainers:
+          - tiborsimko
+        state: alpha
+        type: independent
+      troubleshooting:
+        description: Repository used as knowledge base for troubleshooting issues encountered with Invenio.
+        maintainers:
+          - diegodelemos
+          - lnielsen
+          - slint
+        state: stable
+        type: management
+        travis:
+          active: false
+      workflow:
+        description: Simple Pythonic Workflows
+        maintainers:
+          - david-caro
+          - tiborsimko
+        state: stable
+        type: independent
+      xrootdpyfs:
+        description: XRootDFS is a PyFilesystem interface to XRootD.
+        maintainers:
+          - lnielsen
+        state: stable
+        type: independent
