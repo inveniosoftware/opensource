@@ -92,6 +92,7 @@ orgs:
           - krzysztof
           - ksachs
           - Letreguilly
+          - lnielsen
           - ludmilamarian
           - makistsantekidis
           - marioskogias
@@ -134,6 +135,7 @@ orgs:
           - Sporeal
           - switowski
           - Theer108
+          - tiborsimko
           - traviscb
           - tsgit
           - valkyriesavage
@@ -158,7 +160,8 @@ orgs:
       claimstore:
         description: ClaimStore
         maintainers:
-          - jbenito
+          - jbenito3
+          - tiborsimko
         state: alpha
         type: service
       cookiecutter-invenio-module:
@@ -242,11 +245,6 @@ orgs:
           - drjova
         state: stable
         type: independent
-      flask-notifications:
-        description: Flask-Notifications
-        maintainers: []
-        state: alpha
-        type: independent
       flask-security-fork:
         description: 'Fork of Flask-Security: quick and simple security for Flask applications.'
         maintainers:
@@ -299,6 +297,15 @@ orgs:
         type: independent
       invenio:
         description: Invenio digital library framework
+        branches:
+          - master
+          - legacy
+          - maint-2.1
+          - maint-2.0
+          - maint-1.2
+          - maint-1.1
+          - maint-1.0
+          - maint-0.99
         maintainers:
           - egabancho
           - lnielsen
@@ -390,22 +397,11 @@ orgs:
           - egabancho
         state: planning
         type: addon
-      invenio-client:
-        description: Python library permitting to connect to remote Invenio digital library
-          instances.
-        maintainers: []
-        state: planning
-        type: addon
       invenio-collections:
         description: Invenio module for organizing metadata into collections.
         maintainers:
           - tiborsimko
         state: alpha
-        type: addon
-      invenio-comments:
-        description: Invenio module that adds record commenting feature.
-        maintainers: []
-        state: planning
         type: addon
       invenio-communities:
         description: Invenio communities module.
@@ -444,11 +440,6 @@ orgs:
           - egabancho
         state: beta
         type: base
-      invenio-demosite:
-        description: Invenio demo site overlay
-        maintainers: []
-        state: alpha
-        type: addon
       invenio-deposit:
         description: Invenio module for depositing metadata using workflows.
         maintainers:
@@ -481,11 +472,6 @@ orgs:
         maintainers:
           - lnielsen
         state: alpha
-        type: addon
-      invenio-groups:
-        description: Invenio module that adds support for user groups.
-        maintainers: []
-        state: planning
         type: addon
       invenio-i18n:
         description: Invenio internationalization module.
@@ -536,11 +522,6 @@ orgs:
         maintainers:
           - tiborsimko
         state: alpha
-        type: addon
-      invenio-metrics:
-        description: Invenio module for collecting and publishing metrics.
-        maintainers: []
-        state: planning
         type: addon
       invenio-migrator:
         description: Utilities for migrating past Invenio versions to Invenio 3.0.
@@ -725,12 +706,6 @@ orgs:
           - dinosk
         state: planning
         type: addon
-      invenio-tags:
-        description: Invenio module that adds support for record tagging by authenticated
-          users.
-        maintainers: []
-        state: planning
-        type: addon
       invenio-theme:
         description: Invenio standard theme.
         maintainers:
@@ -762,7 +737,7 @@ orgs:
         description: Sources of the http://inveniosoftware.org web site.
         maintainers:
           - costaflavio
-          - jbenito
+          - jbenito3
           - lnielsen
           - tiborsimko
         state: stable
@@ -812,11 +787,6 @@ orgs:
         type: management
         travis:
           active: false
-      pyld:
-        description: JSON-LD processor written in Python
-        maintainers: []
-        state: alpha
-        type: independent
       pynpm:
         description: Python interface to your NPM and package.json.
         maintainers:
@@ -854,13 +824,6 @@ orgs:
         type: management
         travis:
           active: false
-      workflow:
-        description: Simple Pythonic Workflows
-        maintainers:
-          - david-caro
-          - tiborsimko
-        state: stable
-        type: independent
       xrootdpyfs:
         description: XRootDFS is a PyFilesystem interface to XRootD.
         maintainers:
