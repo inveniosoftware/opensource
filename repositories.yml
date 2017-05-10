@@ -336,6 +336,7 @@ orgs:
         description: ''
         maintainers:
           - egabancho
+          - david-caro
         state: planning
         type: addon
       invenio-admin:
@@ -395,12 +396,14 @@ orgs:
         description: ''
         maintainers:
           - egabancho
+          - david-caro
         state: planning
         type: addon
       invenio-collections:
         description: Invenio module for organizing metadata into collections.
         maintainers:
           - tiborsimko
+          - jacquerie
         state: alpha
         type: addon
       invenio-communities:
@@ -484,6 +487,7 @@ orgs:
         description: ''
         maintainers:
           - egabancho
+          - david-caro
         state: planning
         type: addon
       invenio-indexer:
@@ -533,6 +537,7 @@ orgs:
         description: Invenio module for OAI-PMH metadata harvesting between repositories.
         maintainers:
           - egabancho
+          - david-caro
         state: alpha
         type: addon
       invenio-oaiserver:
@@ -575,6 +580,7 @@ orgs:
         description: 'ORCID integration for Invenio. '
         maintainers:
           - egabancho
+          - kaplun
         state: alpha
         type: addon
       invenio-pages:
@@ -615,6 +621,7 @@ orgs:
         description: Search query parser supporting Invenio and SPIRES search syntax.
         maintainers:
           - tiborsimko
+          - jacquerie
         state: stable
         type: addon
       invenio-records:
