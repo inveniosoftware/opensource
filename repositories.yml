@@ -267,8 +267,9 @@ orgs:
       flask-webpackext:
         description: "*** WORK IN PROGRESS *** Webpack integration for Flask."
         maintainers:
-          - lnielsen
           - drjova
+          - lnielsen
+          - pferreir
         state: planning
         type: independent
       generator-invenio-js-module:
@@ -797,15 +798,17 @@ orgs:
       pynpm:
         description: Python interface to your NPM and package.json.
         maintainers:
-          - lnielsen
           - drjova
+          - lnielsen
+          - pferreir
         state: planning
         type: independent
       pywebpack:
         description: Webpack integration layer for Python.
         maintainers:
-          - lnielsen
           - drjova
+          - lnielsen
+          - pferreir
         state: planning
         type: independent
       requirements-builder:
