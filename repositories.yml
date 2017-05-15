@@ -317,6 +317,7 @@ orgs:
         description: Invenio module for common role based access control.
         maintainers:
           - egabancho
+          - switowski
           - tiborsimko
         state: alpha
         type: core
@@ -325,6 +326,7 @@ orgs:
         maintainers:
           - lnielsen
           - nharraud
+          - switowski
         state: beta
         type: core
       invenio-accounts-rest:
@@ -351,6 +353,7 @@ orgs:
         maintainers:
           - lnielsen
           - egabancho
+          - switowski
         state: alpha
         type: core
       invenio-app-ils:
@@ -384,6 +387,7 @@ orgs:
         maintainers:
           - lnielsen
           - nharraud
+          - switowski
           - tiborsimko
         state: alpha
         type: base
@@ -420,6 +424,7 @@ orgs:
         maintainers:
           - drjova
           - lnielsen
+          - switowski
           - tiborsimko
         state: beta
         type: base
@@ -532,6 +537,7 @@ orgs:
         description: Utilities for migrating past Invenio versions to Invenio 3.0.
         maintainers:
         - egabancho
+        - switowski
         state: alpha
         type: addon
       invenio-oaiharvester:
@@ -588,6 +594,7 @@ orgs:
         description: Invenio module that adds support for static pages.
         maintainers:
         - lnielsen
+        - switowski
         state: alpha
         type: addon
       invenio-pidstore:
@@ -595,6 +602,7 @@ orgs:
         maintainers:
           - lnielsen
           - egabancho
+          - switowski
         state: beta
         type: core
       invenio-pidrelations:
@@ -657,6 +665,7 @@ orgs:
         maintainers:
           - lnielsen
           - drjova
+          - switowski
         state: alpha
         type: core
       invenio-rest:
@@ -664,6 +673,7 @@ orgs:
         maintainers:
           - lnielsen
           - drjova
+          - switowski
         state: alpha
         type: core
       invenio-search:
@@ -690,6 +700,7 @@ orgs:
         description: Invenio module for generating sequences.
         maintainers:
           - egabancho
+          - switowski
         state: alpha
         type: addon
       invenio-sipstore:
@@ -719,6 +730,7 @@ orgs:
         maintainers:
           - drjova
           - lnielsen
+          - switowski
         state: alpha
         type: base
       invenio-userprofiles:
