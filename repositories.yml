@@ -256,6 +256,7 @@ orgs:
       flask-sitemap:
         description: Flask-Sitemap is a Flask extension helping with sitemap generation.
         maintainers:
+          - jirikuncar
           - tiborsimko
         state: stable
         type: independent
