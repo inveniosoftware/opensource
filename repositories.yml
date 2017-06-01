@@ -636,6 +636,14 @@ orgs:
           - jacquerie
         state: stable
         type: addon
+      invenio-queues:
+        description: PROTOTYPE!!! Do not use this module yet.
+        maintainers:
+          - lnielsen
+          - nharraud
+          - dinosk
+        state: planning
+        type: base
       invenio-records:
         description: Invenio-Records is a metadata storage module.
         maintainers:
