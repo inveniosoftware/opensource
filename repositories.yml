@@ -483,6 +483,7 @@ orgs:
         description: GitHub integration for Invenio.
         maintainers:
           - lnielsen
+          - krzysztof
         state: alpha
         type: addon
       invenio-i18n:
