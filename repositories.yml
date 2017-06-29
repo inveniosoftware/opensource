@@ -840,6 +840,7 @@ orgs:
         maintainers:
           - lnielsen
           - egabancho
+          - jirikuncar
         state: stable
         type: independent
       timegate:
