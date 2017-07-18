@@ -20,7 +20,7 @@ Fulfilling these strategic goals will not only make it easier to contribute to
 Invenio, it will make it easier to adopt and use Invenio. In fact ease of using
 Invenio is a key issue in ensuring it is also easy to contribute to Invenio.
 
-## Break the learning curve ([project](https://github.com/inveniosoftware/opensource/projects/1))
+## [Break the learning curve](https://github.com/inveniosoftware/opensource/projects/1)
 
 Learning invenio must be easy and the current learning curve is a major
 obstacle in making that happening. It must be easy to onboard new developers
@@ -46,12 +46,12 @@ duration contracts, making the documentation critical for preserving knowledge.
 
 **Actions:**
 
-- Reorganise the documentation to focus on specific target groups.
-- Write and maintain easy tutorials for each target group.
-- Write description/use cases of all Invenio modules and their relationships.
-- Write about architecture and design patterns used in Invenio.
-- Write guide on how to setup your development environment.
-- Write general introduction for Invenio.
+- [Reorganise the documentation to focus on specific target groups](https://github.com/inveniosoftware/opensource/issues/12)
+- [Write and maintain easy tutorials for each target group](https://github.com/inveniosoftware/opensource/issues/13)
+- [Write description/use cases of all Invenio modules and their relationships](https://github.com/inveniosoftware/opensource/issues/14)
+- [Write about architecture and design patterns used in Invenio](https://github.com/inveniosoftware/opensource/issues/15)
+- [Write guide on how to setup your development environment](https://github.com/inveniosoftware/opensource/issues/16)
+- [Write general introduction for Invenio](https://github.com/inveniosoftware/opensource/issues/17)
 
 ### Invenio installation process and demo sites
 
@@ -61,9 +61,9 @@ up and running fast and making it easy to use this for development.
 
 **Actions:**
 
-- Simplify Invenio installation.
-- Make demo sites easy to use for development purposes by use of Docker.
-- Develop one or more full-fledge Invenio demo sites.
+- [Simplify Invenio installation](https://github.com/inveniosoftware/opensource/issues/18)
+- [Make demo sites easy to use for development purposes by use of Docker](https://github.com/inveniosoftware/opensource/issues/19)
+- [Develop one or more full-fledge Invenio demo sites](https://github.com/inveniosoftware/opensource/issues/20)
 
 ### Training strategy
 
@@ -76,13 +76,13 @@ earlier which is especially important for TECH students that stays for 1 year.
 
 **Actions:**
 
-- Setup a common repository for hosting training materials and plans.
-- Setup a buddy system to help onboard new developers that makes use of e.g. pair programming.
-- Setup a bi-monthly training day for all of Invenio and define initial training plan (architecture, maintainers, …).
-- Define an Invenio training strategy that takes both internal and external training into account to ensure that we optimize the effort usage to run trainings.
-- Setup team building event (common one day sprint).
+- [Setup a common repository for hosting training materials and plans](https://github.com/inveniosoftware/opensource/issues/21)
+- [Setup a buddy system to help onboard new developers that makes use of e.g. pair programming](https://github.com/inveniosoftware/opensource/issues/2)
+- [Setup a bi-monthly training day for all of Invenio and define initial training plan (architecture, maintainers, ...)](https://github.com/inveniosoftware/opensource/issues/22)
+- [Define an Invenio training strategy that takes both internal and external training into account to ensure that we optimize the effort usage to run trainings](https://github.com/inveniosoftware/opensource/issues/23)
+- [Setup team building event (common one day sprint)](https://github.com/inveniosoftware/opensource/issues/24)
 
-## Empower the collaboration ([project](https://github.com/inveniosoftware/opensource/projects/2))
+## [Empower the collaboration](https://github.com/inveniosoftware/opensource/projects/2)
 
 We must empower the collaboration to do what it takes to get their job done. We
 must ensure that we have a way for developers to progressively take larger and
@@ -104,14 +104,11 @@ are.
 
 **Actions:**
 
-- Document governance model to clarify roles, responsibilities, decision making
-  and expectations (e.g. ensuring transparency of decisions).
-- Write simplified and targeted maintainers guide, style guide and contributor
-  guide that are user friendly.
-- Recruit and train maintainers.
-- Get maintainers to manage (assign/unassign/close) issues in managed
-  repositories.
-- Automate package release building.
+- [Document governance model to clarify roles, responsibilities, decision making and expectations (e.g. ensuring transparency of decisions)](https://github.com/inveniosoftware/opensource/issues/25)
+- [Write simplified and targeted maintainers guide, style guide and contributor guide that are user friendly](https://github.com/inveniosoftware/opensource/issues/1)
+- [Recruit and train maintainers](https://github.com/inveniosoftware/opensource/issues/27)
+- [Get maintainers to manage (assign/unassign/close) issues in managed repositories](https://github.com/inveniosoftware/opensource/issues/28)
+- [Automate package release building](https://github.com/inveniosoftware/opensource/issues/29)
 
 ### Coordination
 
@@ -121,18 +118,13 @@ frameworks for coordinating decisions and efforts.
 
 **Actions:**
 
-- Setup Invenio sprints.
-- Setup common knowledge base/FAQ as well as a maintenance plan of it.
-- Decrease overhead for new features by allowing prototyping in Invenio
-  repositories.
-- Define plan for how to deal with Invenio-wide problems (raising awareness
-  about the issue and quickly fixing the issue together to lower cost of bug
-  rediscovery).
-- Setup place to coordinate services and/or new features and getting advice
-  from experts.
-- Setup service coordination meetings and technical architecture meetings.
-- Move identical code in multiple service repositories into common Invenio
-  modules.
+- [Setup Invenio sprints](https://github.com/inveniosoftware/opensource/issues/30)
+- [Setup common knowledge base/FAQ as well as a maintenance plan of it](https://github.com/inveniosoftware/opensource/issues/31)
+- [Decrease overhead for new features by allowing prototyping in Invenio repositories](https://github.com/inveniosoftware/opensource/issues/32)
+- [Define plan for how to deal with Invenio-wide problems (raising awareness about the issue and quickly fixing the issue together to lower cost of bug rediscovery)](https://github.com/inveniosoftware/opensource/issues/33)
+- [Setup place to coordinate services and/or new features and getting advice from experts](https://github.com/inveniosoftware/opensource/issues/34)
+- [Setup service coordination meetings and technical architecture meetings](https://github.com/inveniosoftware/opensource/issues/35)
+- [Move identical code in multiple service repositories into common Invenio modules](https://github.com/inveniosoftware/opensource/issues/36)
 
 ### Communication
 
@@ -144,11 +136,10 @@ decisions on.
 
 **Actions:**
 
-- Clarify and document communication channels.
-- Define Invenio vision, strategy & roadmap with small achievable goals
-  clarifying: framework vs software, flavours, adoption, what are our aims.
+- [Clarify and document communication channels](https://github.com/inveniosoftware/opensource/issues/37)
+- [Define Invenio vision, strategy & roadmap with small achievable goals clarifying: framework vs software, flavours, adoption, what are our aims](https://github.com/inveniosoftware/opensource/issues/38)
 
-## Focus the discussion ([project](https://github.com/inveniosoftware/opensource/projects/3))
+## [Focus the discussion](https://github.com/inveniosoftware/opensource/projects/3)
 
 The last strategic goal is to reduce the friction in contributing by ensuring
 that discussion are centered around the important issues that brings value to
@@ -156,10 +147,8 @@ the product instead of being side-tracked by unimportant discussions.
 
 **Actions:**
 
-- Setup nightly builds and notification system for broken packages.
-- Build tools to automate repository and package management.
-- Automate and simplify maintenance tasks including package releases.
-- Automate style checking to avoid developers spending efforts on style
-  discussions.
-- Develop integration and acceptance tests for Invenio demo sites to detect
-  breaking changes.
+- [Setup nightly builds and notification system for broken packages](https://github.com/inveniosoftware/opensource/issues/39)
+- [Build tools to automate repository and package management](https://github.com/inveniosoftware/opensource/issues/40)
+- [Automate and simplify maintenance tasks including package releases](https://github.com/inveniosoftware/opensource/issues/41)
+- [Automate style checking to avoid developers spending efforts on style discussions](https://github.com/inveniosoftware/opensource/issues/42)
+- [Develop integration and acceptance tests for Invenio demo sites to detect breaking changes](https://github.com/inveniosoftware/opensource/issues/43)
