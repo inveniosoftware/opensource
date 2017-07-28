@@ -465,6 +465,13 @@ orgs:
           - drjova
         state: alpha
         type: core
+      invenio-files-processor:
+        description: Invenio module for file processing tasks.
+        maintainers:
+          - lnielsen
+          - krzysztof
+        state: alpha
+        type: addon
       invenio-files-rest:
         description: REST API for uploading/downloading files for Invenio.
         maintainers:
