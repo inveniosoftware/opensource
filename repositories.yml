@@ -9,6 +9,7 @@ orgs:
           - egabancho
           - lnielsen
           - nharraud
+          - switowski
           - tiborsimko
       coordinators:
         members:
@@ -466,10 +467,10 @@ orgs:
         state: alpha
         type: core
       invenio-files-processor:
-        description: Invenio module for file processing tasks.
+        description: PROTOTYPE!!! Invenio module for file processing tasks.
         maintainers:
-          - lnielsen
           - krzysztof
+          - lnielsen
         state: alpha
         type: addon
       invenio-files-rest:
@@ -595,7 +596,7 @@ orgs:
         state: alpha
         type: addon
       invenio-orcid:
-        description: 'ORCID integration for Invenio. '
+        description: 'ORCID integration for Invenio.'
         maintainers:
           - egabancho
           - kaplun
