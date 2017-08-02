@@ -7,6 +7,7 @@ orgs:
         members:
           - drjova
           - egabancho
+          - jbenito3
           - lnielsen
           - nharraud
           - switowski
@@ -23,7 +24,6 @@ orgs:
         permission: push
         repositories: "*"
         members:
-          - costaflavio
           - aaccomazzi
           - adrianp
           - alizeepace
@@ -33,13 +33,13 @@ orgs:
           - antonis-manaras
           - audub
           - aw-bib
-          - bavaria95
           - bittirousku
           - blixhavn
           - bouzlibop
           - bruno314
           - cbacchi
           - CharlotteIrisC
+          - costaflavio
           - danmichaelo
           - david-caro
           - ddaze
@@ -61,7 +61,6 @@ orgs:
           - greut
           - gszpura
           - hachreak
-          - HarryCutts
           - harunurhan
           - helix84
           - hjhsalo
@@ -74,7 +73,6 @@ orgs:
           - jan44
           - JavierDelgadoFernandez
           - jbenito3
-          - jcboyd
           - jeromecaffaro
           - jgarcial
           - jirikuncar
@@ -85,7 +83,6 @@ orgs:
           - jrbl
           - jstypka
           - jsvgoncalves
-          - jvican
           - kaplun
           - kasioumis
           - Kennethhole
@@ -109,6 +106,7 @@ orgs:
           - njbeyli
           - nkalodimas
           - noumar
+          - ntarocco
           - omelkonian
           - Osso
           - otron
@@ -143,6 +141,7 @@ orgs:
           - tsgit
           - valkyriesavage
           - WohthaN
+          - xiaom
           - zazasa
           - zzacharo
     repositories:
@@ -857,6 +856,16 @@ orgs:
           - tiborsimko
         state: alpha
         type: independent
+      training:
+        description: Repository for Invenio training material.
+        maintainers:
+          - diegodelemos
+          - lnielsen
+          - jbenito3
+        state: stable
+        type: management
+        travis:
+          active: false
       troubleshooting:
         description: Repository used as knowledge base for troubleshooting issues encountered with Invenio.
         maintainers:
