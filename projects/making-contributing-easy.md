@@ -46,7 +46,7 @@ duration contracts, making the documentation critical for preserving knowledge.
 
 **Actions:**
 
-- [Reorganise the documentation to focus on specific target groups](https://github.com/inveniosoftware/opensource/issues/12)
+- [~~Reorganise the documentation to focus on specific target groups~~](https://github.com/inveniosoftware/opensource/issues/12)
 - [Write and maintain easy tutorials for each target group](https://github.com/inveniosoftware/opensource/issues/13)
 - [Write description/use cases of all Invenio modules and their relationships](https://github.com/inveniosoftware/opensource/issues/14)
 - [Write about architecture and design patterns used in Invenio](https://github.com/inveniosoftware/opensource/issues/15)
@@ -77,7 +77,7 @@ earlier which is especially important for TECH students that stays for 1 year.
 **Actions:**
 
 - [Setup a common repository for hosting training materials and plans](https://github.com/inveniosoftware/opensource/issues/21)
-- [Setup a buddy system to help onboard new developers that makes use of e.g. pair programming](https://github.com/inveniosoftware/opensource/issues/2)
+- [~~Setup a buddy system to help onboard new developers that makes use of e.g. pair programming~~](https://github.com/inveniosoftware/opensource/issues/2)
 - [Setup a bi-monthly training day for all of Invenio and define initial training plan (architecture, maintainers, ...)](https://github.com/inveniosoftware/opensource/issues/22)
 - [Define an Invenio training strategy that takes both internal and external training into account to ensure that we optimize the effort usage to run trainings](https://github.com/inveniosoftware/opensource/issues/23)
 - [Setup team building event (common one day sprint)](https://github.com/inveniosoftware/opensource/issues/24)
@@ -104,7 +104,7 @@ are.
 
 **Actions:**
 
-- [Document governance model to clarify roles, responsibilities, decision making and expectations (e.g. ensuring transparency of decisions)](https://github.com/inveniosoftware/opensource/issues/25)
+- [~~Document governance model to clarify roles, responsibilities, decision making and expectations (e.g. ensuring transparency of decisions~~)](https://github.com/inveniosoftware/opensource/issues/25)
 - [Write simplified and targeted maintainers guide, style guide and contributor guide that are user friendly](https://github.com/inveniosoftware/opensource/issues/1)
 - [Recruit and train maintainers](https://github.com/inveniosoftware/opensource/issues/27)
 - [Get maintainers to manage (assign/unassign/close) issues in managed repositories](https://github.com/inveniosoftware/opensource/issues/28)
@@ -118,8 +118,8 @@ frameworks for coordinating decisions and efforts.
 
 **Actions:**
 
-- [Setup Invenio sprints](https://github.com/inveniosoftware/opensource/issues/30)
-- [Setup common knowledge base/FAQ as well as a maintenance plan of it](https://github.com/inveniosoftware/opensource/issues/31)
+- [~~Setup Invenio sprints~~](https://github.com/inveniosoftware/opensource/issues/30)
+- [~~Setup common knowledge base/FAQ as well as a maintenance plan of it~~](https://github.com/inveniosoftware/opensource/issues/31)
 - [Decrease overhead for new features by allowing prototyping in Invenio repositories](https://github.com/inveniosoftware/opensource/issues/32)
 - [Define plan for how to deal with Invenio-wide problems (raising awareness about the issue and quickly fixing the issue together to lower cost of bug rediscovery)](https://github.com/inveniosoftware/opensource/issues/33)
 - [Setup place to coordinate services and/or new features and getting advice from experts](https://github.com/inveniosoftware/opensource/issues/34)
@@ -136,7 +136,7 @@ decisions on.
 
 **Actions:**
 
-- [Clarify and document communication channels](https://github.com/inveniosoftware/opensource/issues/37)
+- [~~Clarify and document communication channels~~](https://github.com/inveniosoftware/opensource/issues/37)
 - [Define Invenio vision, strategy & roadmap with small achievable goals clarifying: framework vs software, flavours, adoption, what are our aims](https://github.com/inveniosoftware/opensource/issues/38)
 
 ## [Focus the discussion](https://github.com/inveniosoftware/opensource/projects/3)
