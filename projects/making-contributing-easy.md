@@ -78,7 +78,7 @@ earlier which is especially important for TECH students that stays for 1 year.
 
 - [Setup a common repository for hosting training materials and plans](https://github.com/inveniosoftware/opensource/issues/21)
 - [~~Setup a buddy system to help onboard new developers that makes use of e.g. pair programming~~](https://github.com/inveniosoftware/opensource/issues/2)
-- [Setup a bi-monthly training day for all of Invenio and define initial training plan (architecture, maintainers, ...)](https://github.com/inveniosoftware/opensource/issues/22)
+- [~~Setup a bi-monthly training day for all of Invenio and define initial training plan (architecture, maintainers, ...)~~](https://github.com/inveniosoftware/opensource/issues/22)
 - [Define an Invenio training strategy that takes both internal and external training into account to ensure that we optimize the effort usage to run trainings](https://github.com/inveniosoftware/opensource/issues/23)
 - [Setup team building event (common one day sprint)](https://github.com/inveniosoftware/opensource/issues/24)
 
