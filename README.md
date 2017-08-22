@@ -9,3 +9,4 @@ Projects are setup to address particular issues that need focused attention to
 change status quo. We are currently working on the following projects.
 
 - [Making contributing easy](projects/making-contributing-easy.md)
+- [Buddy system](projects/buddy-system.md)
