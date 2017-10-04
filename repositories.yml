@@ -369,8 +369,8 @@ orgs:
       invenio-archivematica:
         description: "*** WORK IN PROGRESS *** "
         maintainers:
-          - remileduc
           - egabancho
+          - ntarocco
         state: planning
         type: addon
       invenio-assets:
@@ -394,6 +394,12 @@ orgs:
           - switowski
           - tiborsimko
         state: alpha
+        type: base
+      invenio-cache:
+        description: Cache module for Invenio
+        maintainers:
+          - lnielsen
+        state: beta
         type: base
       invenio-celery:
         description: Integration layer between Celery and Invenio.
