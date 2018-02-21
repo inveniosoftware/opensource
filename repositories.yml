@@ -39,6 +39,7 @@ orgs:
           - bruno314
           - cbacchi
           - CharlotteIrisC
+          - ChiaraBi
           - costaflavio
           - danmichaelo
           - david-caro
@@ -66,6 +67,7 @@ orgs:
           - hjhsalo
           - invenio-developers
           - ioannistsanaktsidis
+          - ioanungurean
           - jacenkow
           - jacquerie
           - JakeCowton
@@ -840,6 +842,12 @@ orgs:
           - lnielsen
           - pferreir
         state: planning
+        type: independent
+      pytest-invenio:
+        description: Pytest fixtures for Invenio.
+        maintainers:
+          - lnielsen
+        state: alpha
         type: independent
       pywebpack:
         description: Webpack integration layer for Python.
