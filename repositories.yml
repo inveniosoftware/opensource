@@ -16,7 +16,6 @@ orgs:
         members:
           - audub
           - jbenito3
-          - kaplun
           - lnielsen
           - ludmilamarian
           - tiborsimko
@@ -83,7 +82,6 @@ orgs:
           - jmartinm
           - jochenklein
           - jrbl
-          - jstypka
           - jsvgoncalves
           - kaplun
           - kasioumis
@@ -298,7 +296,6 @@ orgs:
       intbitset:
         description: Python C-based extension implementing fast integer bit sets
         maintainers:
-          - kaplun
           - tiborsimko
         state: stable
         type: independent
@@ -403,6 +400,12 @@ orgs:
           - lnielsen
         state: beta
         type: base
+      invenio-charts-js:
+        description: Invenio-Charts-JS is a library for integrating charts into modern web apps (built on D3.js).
+        maintainers:
+          - drjova
+        state: alpha
+        type: addon
       invenio-celery:
         description: Integration layer between Celery and Invenio.
         maintainers:
@@ -607,7 +610,6 @@ orgs:
         description: 'ORCID integration for Invenio.'
         maintainers:
           - egabancho
-          - kaplun
         state: alpha
         type: addon
       invenio-pages:
@@ -790,6 +792,7 @@ orgs:
           - tiborsimko
         state: stable
         type: service
+        i18n: false
       iugw2017:
         description: Tutorials for Invenio User Group Workshop 2017
         url: https://indico.cern.ch/event/557956/
@@ -797,7 +800,6 @@ orgs:
           - audub
           - drjova
           - egabancho
-          - kaplun
           - lnielsen
           - ludmilamarian
           - nharraud
@@ -808,18 +810,32 @@ orgs:
         type: management
         travis:
           active: false
+        i18n: false
       jsonresolver:
         description: JSON data resolver with support for plugins.
         maintainers:
           - nharraud
         state: alpha
         type: independent
+        i18n: false
       kwalitee:
         description: Tool for checking commit kwalitee.
         maintainers:
           - tiborsimko
         state: alpha
         type: independent
+        i18n: false
+      license-changer:
+        description: Scripts for automating license change for Invenio.
+        maintainers:
+          - lnielsen
+          - tiborsimko
+        state: beta
+        type: independent
+        i18n: false
+        travis:
+          active: false
+        url: ''
       metainvenio:
         description: CLI management tool for Invenio projects.
         maintainers:
@@ -827,6 +843,7 @@ orgs:
           - david-caro
         state: planning
         type: independent
+        i18n: false
       opensource:
         description: Repository for issues, documentation and other matters related to management of open source at Invenio Software.
         maintainers:
@@ -835,6 +852,7 @@ orgs:
         type: management
         travis:
           active: false
+        i18n: false
       pynpm:
         description: Python interface to your NPM and package.json.
         maintainers:
@@ -843,12 +861,14 @@ orgs:
           - pferreir
         state: planning
         type: independent
+        i18n: false
       pytest-invenio:
         description: Pytest fixtures for Invenio.
         maintainers:
           - lnielsen
         state: alpha
         type: independent
+        i18n: false
       pywebpack:
         description: Webpack integration layer for Python.
         maintainers:
@@ -857,6 +877,7 @@ orgs:
           - pferreir
         state: planning
         type: independent
+        i18n: false
       requirements-builder:
         description: Build requirements files from setup.py.
         maintainers:
@@ -865,12 +886,14 @@ orgs:
           - jirikuncar
         state: stable
         type: independent
+        i18n: false
       timegate:
         description: A Memento TimeGate
         maintainers:
           - tiborsimko
         state: alpha
         type: independent
+        i18n: false
       training:
         description: Repository for Invenio training material.
         maintainers:
@@ -881,6 +904,7 @@ orgs:
         type: management
         travis:
           active: false
+        i18n: false
       troubleshooting:
         description: Repository used as knowledge base for troubleshooting issues encountered with Invenio.
         maintainers:
@@ -891,9 +915,11 @@ orgs:
         type: management
         travis:
           active: false
+        i18n: false
       xrootdpyfs:
         description: XRootDFS is a PyFilesystem interface to XRootD.
         maintainers:
           - lnielsen
         state: stable
         type: independent
+        i18n: false
