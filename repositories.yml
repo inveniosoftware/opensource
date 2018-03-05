@@ -323,7 +323,7 @@ orgs:
           - switowski
           - tiborsimko
         state: alpha
-        type: core
+        type: auth
       invenio-accounts:
         description: Invenio module for managing user accounts.
         maintainers:
@@ -331,7 +331,7 @@ orgs:
           - nharraud
           - switowski
         state: beta
-        type: core
+        type: auth
       invenio-accounts-rest:
         description: Invenio modules that adds accounts REST API.
         maintainers:
@@ -358,13 +358,13 @@ orgs:
           - egabancho
           - switowski
         state: alpha
-        type: core
+        type: base
       invenio-app-ils:
         description: Integrated Library System flavour of Invenio.
         maintainers:
           - lnielsen
         state: alpha
-        type: core
+        type: service
       invenio-archivematica:
         description: "*** WORK IN PROGRESS *** "
         maintainers:
@@ -470,13 +470,13 @@ orgs:
           - lnielsen
           - egabancho
         state: alpha
-        type: core
+        type: deposit
       invenio-files-js:
         description: Invenio-Files-JS
         maintainers:
           - drjova
         state: alpha
-        type: core
+        type: files
       invenio-files-processor:
         description: PROTOTYPE!!! Invenio module for file processing tasks.
         maintainers:
@@ -490,7 +490,7 @@ orgs:
           - lnielsen
           - drjova
         state: alpha
-        type: core
+        type: files
       invenio-formatter:
         description: Invenio module for formatting the bibliographic records.
         maintainers:
@@ -524,14 +524,14 @@ orgs:
         maintainers:
           - lnielsen
           - nharraud
-        state: alpha
-        type: core
+        state: beta
+        type: metadata
       invenio-jsonschemas:
         description: Invenio Schema Registry
         maintainers:
           - nharraud
         state: alpha
-        type: core
+        type: metadata
       invenio-logging:
         description: Invenio logging module.
         maintainers:
@@ -575,22 +575,22 @@ orgs:
         maintainers:
           - lnielsen
           - nharraud
-        state: alpha
-        type: core
+        state: beta
+        type: metadata
       invenio-oauth2server:
         description: Invenio modules that implements OAuth 2 server.
         maintainers:
           - lnielsen
           - nharraud
-        state: alpha
-        type: core
+        state: beta
+        type: auth
       invenio-oauthclient:
         description: Invenio module that provides OAuth web authorization support.
         maintainers:
           - lnielsen
           - egabancho
-        state: alpha
-        type: core
+        state: beta
+        type: auth
       invenio-openaire:
         description: Invenio module for OpenAIRE integration.
         maintainers:
@@ -626,7 +626,7 @@ orgs:
           - egabancho
           - switowski
         state: beta
-        type: core
+        type: metadata
       invenio-pidrelations:
         description: "**WORK IN PROGRESS** - warning: repo can be squashed and force pushed!"
         maintainers:
@@ -641,7 +641,7 @@ orgs:
           - lnielsen
           - drjova
         state: alpha
-        type: core
+        type: files
       invenio-previewer-ispy:
         description: Invenio previewer extension for ISPY visualization tool.
         maintainers:
@@ -662,42 +662,42 @@ orgs:
           - nharraud
           - dinosk
         state: planning
-        type: base
+        type: addon
       invenio-records:
         description: Invenio-Records is a metadata storage module.
         maintainers:
           - lnielsen
           - nharraud
         state: beta
-        type: core
+        type: metadata
       invenio-records-files:
         description: Invenio modules that integrates records and files.
         maintainers:
           - lnielsen
           - drjova
         state: alpha
-        type: core
+        type: files
       invenio-records-js:
         description: Invenio-Records client library for building the web UI.
         maintainers:
           - drjova
         state: alpha
-        type: core
+        type: deposit
       invenio-records-rest:
         description: Invenio records REST API module.
         maintainers:
           - lnielsen
           - nharraud
-        state: alpha
-        type: core
+        state: beta
+        type: metadata
       invenio-records-ui:
         description: Invenio records user interface module.
         maintainers:
           - lnielsen
           - drjova
           - switowski
-        state: alpha
-        type: core
+        state: beta
+        type: metadata
       invenio-rest:
         description: REST API support for Invenio.
         maintainers:
@@ -705,27 +705,27 @@ orgs:
           - drjova
           - switowski
         state: alpha
-        type: core
+        type: base
       invenio-search:
         description: Invenio module for information retrieval.
         maintainers:
           - lnielsen
           - nharraud
-        state: alpha
-        type: core
+        state: beta
+        type: metadata
       invenio-search-js:
         description: Invenio-Search client library for building the web UI.
         maintainers:
           - drjova
         state: alpha
-        type: core
+        type: metadata
       invenio-search-ui:
         description: UI for Invenio Search.
         maintainers:
           - drjova
           - lnielsen
-        state: alpha
-        type: core
+        state: beta
+        type: metadata
       invenio-sequencegenerator:
         description: Invenio module for generating sequences.
         maintainers:
@@ -761,7 +761,7 @@ orgs:
           - drjova
           - lnielsen
           - switowski
-        state: alpha
+        state: beta
         type: base
       invenio-userprofiles:
         description: User profiles module for Invenio.
@@ -769,20 +769,20 @@ orgs:
           - lnielsen
           - nharraud
         state: alpha
-        type: core
+        type: auth
       invenio-webhooks:
         description: Invenio module for processing webhook events.
         maintainers:
           - lnielsen
           - egabancho
         state: alpha
-        type: core
+        type: addon
       invenio-xrootd:
         description: XRootD file storage support for Invenio.
         maintainers:
           - lnielsen
         state: alpha
-        type: addon
+        type: files
       inveniosoftware.org:
         description: Sources of the http://inveniosoftware.org web site.
         maintainers:
