@@ -170,7 +170,7 @@ orgs:
         state: alpha
         type: service
       cookiecutter-invenio-module:
-        description: Cookiecutter - Invenio Module Template
+        description: Cookiecutter template for an Invenio module.
         maintainers:
           - drjova
           - egabancho
@@ -178,6 +178,12 @@ orgs:
           - nharraud
           - tiborsimko
         state: alpha
+        type: core
+      cookiecutter-invenio-instance:
+        description: Cookiecutter template for an Invenio instance.
+        maintainers:
+          - ntarocco
+        state: beta
         type: core
       datacite:
         description: Python API wrapper for the DataCite Metadata Store API.
