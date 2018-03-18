@@ -727,6 +727,7 @@ orgs:
           - drjova
         state: alpha
         type: metadata
+        url: http://inveniosoftware.github.io/invenio-search-js/
       invenio-search-ui:
         description: UI for Invenio Search.
         maintainers:
