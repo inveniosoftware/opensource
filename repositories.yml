@@ -169,7 +169,29 @@ orgs:
           - jbenito3
           - tiborsimko
         state: alpha
+        travis:
+          pypideploy: false
         type: service
+      cookiecutter-invenio-datamodel:
+        description: Cookiecutter template for an Invenio data model.
+        maintainers:
+          - egabancho
+          - lnielsen
+        state: beta
+        travis:
+          active: true
+          pypideploy: false
+        type: core
+      cookiecutter-invenio-instance:
+        description: Cookiecutter template for an Invenio instance.
+        maintainers:
+          - ntarocco
+          - lnielsen
+        state: beta
+        travis:
+          active: true
+          pypideploy: false
+        type: core
       cookiecutter-invenio-module:
         description: Cookiecutter template for an Invenio module.
         maintainers:
@@ -179,12 +201,9 @@ orgs:
           - nharraud
           - tiborsimko
         state: alpha
-        type: core
-      cookiecutter-invenio-instance:
-        description: Cookiecutter template for an Invenio instance.
-        maintainers:
-          - ntarocco
-        state: beta
+        travis:
+          active: true
+          pypideploy: false
         type: core
       datacite:
         description: Python API wrapper for the DataCite Metadata Store API.
@@ -294,6 +313,9 @@ orgs:
           - nharraud
           - tiborsimko
         state: alpha
+        travis:
+          active: true
+          pypideploy: false
         type: core
       idutils:
         description: Small Python library to validate persistent identifiers used in scholarly
@@ -323,7 +345,7 @@ orgs:
           - egabancho
           - lnielsen
           - tiborsimko
-        state: alpha
+        state: beta
         type: core
       invenio-access:
         description: Invenio module for common role based access control.
@@ -358,7 +380,7 @@ orgs:
         description: Invenio admin module.
         maintainers:
           - lnielsen
-        state: beta
+        state: stable
         type: base
       invenio-app:
         description: WSGI, Celery and CLI applications for Invenio flavours.
@@ -409,11 +431,21 @@ orgs:
           - lnielsen
         state: beta
         type: base
+      invenio-iiif:
+        description: IIIF API for Invenio.
+        maintainers:
+          - lnielsen
+          - chiarabi
+        state: alpha
+        type: addon
+        i18n: false
       invenio-charts-js:
         description: Invenio-Charts-JS is a library for integrating charts into modern web apps (built on D3.js).
         maintainers:
           - drjova
         state: alpha
+        travis:
+          pypideploy: false
         type: addon
       invenio-celery:
         description: Integration layer between Celery and Invenio.
@@ -458,6 +490,8 @@ orgs:
           - lnielsen
           - slint
         state: alpha
+        travis:
+          pypideploy: false
         type: addon
       invenio-csl-rest:
         description: REST API for Citation Style Language styles.
@@ -485,6 +519,8 @@ orgs:
         maintainers:
           - drjova
         state: alpha
+        travis:
+          pypideploy: false
         type: files
       invenio-files-processor:
         description: PROTOTYPE!!! Invenio module for file processing tasks.
@@ -691,6 +727,8 @@ orgs:
         maintainers:
           - drjova
         state: alpha
+        travis:
+          pypideploy: false
         type: deposit
       invenio-records-rest:
         description: Invenio records REST API module.
@@ -727,6 +765,9 @@ orgs:
         maintainers:
           - drjova
         state: alpha
+        travis:
+          pypideploy: false
+          active: true
         type: metadata
         url: http://inveniosoftware.github.io/invenio-search-js/
       invenio-search-ui:
@@ -801,6 +842,8 @@ orgs:
           - lnielsen
           - tiborsimko
         state: stable
+        travis:
+          pypideploy: false
         type: service
         i18n: false
       iugw2017:
@@ -820,6 +863,7 @@ orgs:
         type: management
         travis:
           active: false
+          pypideploy: false
         i18n: false
       jsonresolver:
         description: JSON data resolver with support for plugins.
@@ -845,6 +889,7 @@ orgs:
         i18n: false
         travis:
           active: false
+          pypideploy: false
         url: ''
       metainvenio:
         description: CLI management tool for Invenio projects.
@@ -852,6 +897,8 @@ orgs:
           - lnielsen
           - david-caro
         state: planning
+        travis:
+          pypideploy: false
         type: independent
         i18n: false
       opensource:
@@ -862,6 +909,17 @@ orgs:
         type: management
         travis:
           active: false
+          pypideploy: false
+        i18n: false
+      package-releaser:
+        description: CLI tool for release automation.
+        maintainers:
+          - lnielsen
+          - krzysztof
+        state: alpha
+        travis:
+          pypideploy: false
+        type: independent
         i18n: false
       pynpm:
         description: Python interface to your NPM and package.json.
@@ -914,6 +972,7 @@ orgs:
         type: management
         travis:
           active: false
+          pypideploy: false
         i18n: false
       troubleshooting:
         description: Repository used as knowledge base for troubleshooting issues encountered with Invenio.
@@ -925,6 +984,7 @@ orgs:
         type: management
         travis:
           active: false
+          pypideploy: false
         i18n: false
       xrootdpyfs:
         description: XRootDFS is a PyFilesystem interface to XRootD.
