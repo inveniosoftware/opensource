@@ -13,6 +13,7 @@ orgs:
           - tiborsimko
           - ntarocco
           - slint
+          - ludmilamarian
       coordinators:
         members:
           - audub
@@ -393,10 +394,17 @@ orgs:
           - switowski
         state: alpha
         type: base
+      invenio-app-demomarc21:
+        description: Demo of an MARC21 based Invenio flavour.
+        maintainers:
+          - lnielsen
+        state: alpha
+        type: service
       invenio-app-ils:
         description: Integrated Library System flavour of Invenio.
         maintainers:
-          - lnielsen
+          - ludmilamarian
+          - ntarocco
         state: alpha
         type: service
       invenio-archivematica:
