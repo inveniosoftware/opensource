@@ -190,7 +190,7 @@ orgs:
           - lnielsen
         branches:
           - master
-          - maint-3.0
+          - v3.0
         state: beta
         travis:
           active: true
