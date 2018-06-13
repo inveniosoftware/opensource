@@ -209,6 +209,13 @@ orgs:
           active: true
           pypideploy: false
         type: core
+      counter-robots:
+        description: Library for COUNTER-compliant detection of machines and robots.
+        maintainers:
+          - slint
+          - ChiaraBi
+        state: stable
+        type: independent
       datacite:
         description: Python API wrapper for the DataCite Metadata Store API.
         maintainers:
@@ -339,6 +346,7 @@ orgs:
         branches:
           - master
           - legacy
+          - maint-3.0
           - maint-2.1
           - maint-2.0
           - maint-1.2
@@ -847,6 +855,18 @@ orgs:
         type: files
       inveniosoftware.org:
         description: Sources of the http://inveniosoftware.org web site.
+        maintainers:
+          - costaflavio
+          - jbenito3
+          - lnielsen
+          - tiborsimko
+        state: stable
+        travis:
+          pypideploy: false
+        type: service
+        i18n: false
+      invenio-software.org:
+        description: See https://github.com/inveniosoftware/inveniosoftware.org (repository only used for GitHub Pages).
         maintainers:
           - costaflavio
           - jbenito3
