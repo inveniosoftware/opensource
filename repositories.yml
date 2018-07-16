@@ -198,10 +198,8 @@ orgs:
       cookiecutter-invenio-module:
         description: Cookiecutter template for an Invenio module.
         maintainers:
-          - drjova
           - egabancho
           - lnielsen
-          - nharraud
           - tiborsimko
         state: alpha
         travis:
@@ -243,19 +241,20 @@ orgs:
       domapping:
         description: Package generating elasticsearch mapping from jsonschemas
         maintainers:
-          - nharraud
+          - dinosk
         state: alpha
         type: independent
       doschema:
         description: Utilities to work with JSON Schemas.
         maintainers:
-          - nharraud
+          - dinosk
         state: alpha
         type: independent
       flask-breadcrumbs:
         description: Flask-Breadcrumbs is a Flask extension that adds support for generating
           site breadcrumb navigation.
         maintainers:
+          - slint
           - drjova
         state: stable
         type: independent
@@ -276,6 +275,8 @@ orgs:
         description: Flask-IIIF is permitting easy integration with the International
           Image Interoperability Framework (IIIF) API standards.
         maintainers:
+          - slint
+          - ChiaraBi
           - drjova
         state: alpha
         type: independent
@@ -284,6 +285,7 @@ orgs:
           menus.
         maintainers:
           - drjova
+          - slint
         state: stable
         type: independent
       flask-security-fork:
@@ -309,7 +311,7 @@ orgs:
       flask-webpackext:
         description: "*** WORK IN PROGRESS *** Webpack integration for Flask."
         maintainers:
-          - drjova
+          - ntarocco
           - lnielsen
           - pferreir
         state: planning
@@ -320,7 +322,6 @@ orgs:
           - drjova
           - egabancho
           - lnielsen
-          - nharraud
           - tiborsimko
         state: alpha
         travis:
@@ -370,21 +371,19 @@ orgs:
         description: Invenio module for managing user accounts.
         maintainers:
           - lnielsen
-          - nharraud
           - switowski
         state: beta
         type: auth
       invenio-accounts-rest:
         description: Invenio modules that adds accounts REST API.
         maintainers:
-          - nharraud
+          - dinosk
         state: alpha
         type: addon
       invenio-acquisitions:
         description: ''
         maintainers:
           - egabancho
-          - david-caro
         state: planning
         type: addon
       invenio-admin:
@@ -438,7 +437,6 @@ orgs:
         description: Base package for building the Invenio application.
         maintainers:
           - lnielsen
-          - nharraud
           - switowski
           - tiborsimko
         state: alpha
@@ -467,6 +465,7 @@ orgs:
       invenio-charts-js:
         description: Invenio-Charts-JS is a library for integrating charts into modern web apps (built on D3.js).
         maintainers:
+          - ntarocco
           - drjova
         state: alpha
         travis:
@@ -488,9 +487,7 @@ orgs:
       invenio-communities:
         description: Invenio communities module.
         maintainers:
-          - krzysztof
           - lnielsen
-          - nharraud
         state: alpha
         type: addon
       invenio-config:
@@ -543,7 +540,6 @@ orgs:
       invenio-files-processor:
         description: PROTOTYPE!!! Invenio module for file processing tasks.
         maintainers:
-          - krzysztof
           - lnielsen
         state: alpha
         type: addon
@@ -564,8 +560,7 @@ orgs:
       invenio-github:
         description: GitHub integration for Invenio.
         maintainers:
-          - lnielsen
-          - krzysztof
+          - slint
         state: alpha
         type: addon
       invenio-i18n:
@@ -579,20 +574,18 @@ orgs:
         description: ''
         maintainers:
           - egabancho
-          - david-caro
         state: planning
         type: addon
       invenio-indexer:
         description: Record indexer for Invenio.
         maintainers:
           - lnielsen
-          - nharraud
         state: beta
         type: metadata
       invenio-jsonschemas:
         description: Invenio Schema Registry
         maintainers:
-          - nharraud
+          - slint
         state: alpha
         type: metadata
       invenio-logging:
@@ -629,6 +622,7 @@ orgs:
       invenio-oaiharvester:
         description: Invenio module for OAI-PMH metadata harvesting between repositories.
         maintainers:
+          - slint
           - egabancho
           - david-caro
         state: alpha
@@ -637,14 +631,12 @@ orgs:
         description: Invenio module that adds more fun to the platform.
         maintainers:
           - lnielsen
-          - nharraud
         state: beta
         type: metadata
       invenio-oauth2server:
         description: Invenio modules that implements OAuth 2 server.
         maintainers:
           - lnielsen
-          - nharraud
         state: beta
         type: auth
       invenio-oauthclient:
@@ -658,7 +650,7 @@ orgs:
         description: Invenio module for OpenAIRE integration.
         maintainers:
           - lnielsen
-          - krzysztof
+          - slint
         state: alpha
         type: addon
       invenio-opendefinition:
@@ -666,7 +658,7 @@ orgs:
           and http://opendefinition.org/.
         maintainers:
           - lnielsen
-          - krzysztof
+          - slint
         state: alpha
         type: addon
       invenio-orcid:
@@ -693,8 +685,6 @@ orgs:
       invenio-pidrelations:
         description: "**WORK IN PROGRESS** - warning: repo can be squashed and force pushed!"
         maintainers:
-          - krzysztof
-          - nharraud
           - slint
         state: planning
         type: addon
@@ -722,7 +712,6 @@ orgs:
         description: PROTOTYPE!!! Do not use this module yet.
         maintainers:
           - lnielsen
-          - nharraud
           - dinosk
         state: planning
         type: addon
@@ -730,7 +719,6 @@ orgs:
         description: Invenio-Records is a metadata storage module.
         maintainers:
           - lnielsen
-          - nharraud
         state: beta
         type: metadata
       invenio-records-files:
@@ -743,6 +731,7 @@ orgs:
       invenio-records-js:
         description: Invenio-Records client library for building the web UI.
         maintainers:
+          - ntarocco
           - drjova
         state: alpha
         travis:
@@ -752,7 +741,6 @@ orgs:
         description: Invenio records REST API module.
         maintainers:
           - lnielsen
-          - nharraud
         state: beta
         type: metadata
       invenio-records-ui:
@@ -775,12 +763,13 @@ orgs:
         description: Invenio module for information retrieval.
         maintainers:
           - lnielsen
-          - nharraud
         state: beta
         type: metadata
       invenio-search-js:
         description: Invenio-Search client library for building the web UI.
         maintainers:
+          - ntarocco
+          - zzacharo
           - drjova
         state: alpha
         travis:
@@ -806,7 +795,7 @@ orgs:
         description: Invenio Submission Information Package Store
         maintainers:
           - lnielsen
-          - krzysztof
+          - slint
         state: alpha
         type: addon
       invenio-sse:
@@ -819,8 +808,8 @@ orgs:
       invenio-stats:
         description: PROTOTYPE!!! Do not use this module yet.
         maintainers:
-          - lnielsen
-          - nharraud
+          - slint
+          - ChiaraBi
           - dinosk
         state: planning
         type: addon
@@ -835,8 +824,7 @@ orgs:
       invenio-userprofiles:
         description: User profiles module for Invenio.
         maintainers:
-          - lnielsen
-          - nharraud
+          - slint
         state: alpha
         type: auth
       invenio-webhooks:
@@ -885,7 +873,6 @@ orgs:
           - egabancho
           - lnielsen
           - ludmilamarian
-          - nharraud
           - PXke
           - remileduc
           - tiborsimko
@@ -898,7 +885,7 @@ orgs:
       jsonresolver:
         description: JSON data resolver with support for plugins.
         maintainers:
-          - nharraud
+          - slint
         state: alpha
         type: independent
         i18n: false
@@ -945,7 +932,7 @@ orgs:
         description: CLI tool for release automation.
         maintainers:
           - lnielsen
-          - krzysztof
+          - slint
         state: alpha
         travis:
           pypideploy: false
@@ -954,7 +941,7 @@ orgs:
       pynpm:
         description: Python interface to your NPM and package.json.
         maintainers:
-          - drjova
+          - ntarocco
           - lnielsen
           - pferreir
         state: planning
@@ -970,7 +957,7 @@ orgs:
       pywebpack:
         description: Webpack integration layer for Python.
         maintainers:
-          - drjova
+          - ntarocco
           - lnielsen
           - pferreir
         state: planning
@@ -996,7 +983,6 @@ orgs:
         description: Repository for Invenio training material.
         maintainers:
           - diegodelemos
-          - lnielsen
           - jbenito3
         state: stable
         type: management
@@ -1008,7 +994,6 @@ orgs:
         description: Repository used as knowledge base for troubleshooting issues encountered with Invenio.
         maintainers:
           - diegodelemos
-          - lnielsen
           - slint
         state: stable
         type: management
