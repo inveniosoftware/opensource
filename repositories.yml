@@ -70,7 +70,6 @@ orgs:
           - ioannistsanaktsidis
           - ioanungurean
           - jacenkow
-          - jacquerie
           - JakeCowton
           - jalavik
           - jan44
@@ -450,6 +449,13 @@ orgs:
           - lnielsen
         state: beta
         type: base
+      invenio-circulation:
+        description: Library circulation module for Invenio.
+        maintainers:
+          - ntarocco
+          - zzacharo
+        state: alpha
+        type: addon
       invenio-iiif:
         description: IIIF API for Invenio.
         maintainers:
@@ -472,13 +478,6 @@ orgs:
           - lnielsen
         state: beta
         type: base
-      invenio-circulation:
-        description: ''
-        maintainers:
-          - egabancho
-          - david-caro
-        state: planning
-        type: addon
       invenio-collections:
         description: Invenio module for organizing metadata into collections.
         maintainers:
