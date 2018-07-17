@@ -9,11 +9,11 @@ orgs:
           - egabancho
           - jbenito3
           - lnielsen
-          - switowski
-          - tiborsimko
+          - ludmilamarian
           - ntarocco
           - slint
-          - ludmilamarian
+          - switowski
+          - tiborsimko
       coordinators:
         members:
           - audub
@@ -141,6 +141,7 @@ orgs:
           - switowski
           - Theer108
           - tiborsimko
+          - topless
           - traviscb
           - tsgit
           - valkyriesavage
@@ -359,6 +360,7 @@ orgs:
           - tiborsimko
         state: beta
         type: core
+        has_wiki: true
       invenio-access:
         description: Invenio module for common role based access control.
         maintainers:
@@ -450,10 +452,13 @@ orgs:
       invenio-circulation:
         description: Library circulation module for Invenio.
         maintainers:
+          - jma
+          - ludmilamarian
           - ntarocco
           - zzacharo
         state: alpha
         type: addon
+        has_wiki: true
       invenio-iiif:
         description: IIIF API for Invenio.
         maintainers:
@@ -806,13 +811,14 @@ orgs:
         state: alpha
         type: addon
       invenio-stats:
-        description: PROTOTYPE!!! Do not use this module yet.
+        description: Statistical data processing and querying for Invenio.
         maintainers:
           - slint
           - ChiaraBi
           - dinosk
         state: planning
         type: addon
+        has_wiki: true
       invenio-theme:
         description: Invenio standard theme.
         maintainers:
