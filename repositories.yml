@@ -489,7 +489,6 @@ orgs:
         description: Invenio module for organizing metadata into collections.
         maintainers:
           - tiborsimko
-          - jacquerie
         state: alpha
         type: addon
       invenio-communities:
@@ -713,7 +712,6 @@ orgs:
         description: Search query parser supporting Invenio and SPIRES search syntax.
         maintainers:
           - tiborsimko
-          - jacquerie
         state: stable
         type: addon
       invenio-queues:
