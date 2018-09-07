@@ -423,6 +423,7 @@ orgs:
         maintainers:
           - ludmilamarian
           - ntarocco
+          - zzacharo
         state: alpha
         type: service
       invenio-archivematica:
