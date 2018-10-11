@@ -55,6 +55,7 @@ orgs:
           - epsallida
           - etzemis
           - fatiherikli
+          - fenekku
           - fjorba
           - fpoli
           - Fr4nk0is
@@ -132,6 +133,7 @@ orgs:
           - rikirenz
           - robertwinchell
           - robk5uj
+          - roksys
           - romanchyla
           - rsripada
           - SamiHiltunen
@@ -734,6 +736,18 @@ orgs:
         maintainers:
           - lnielsen
         state: beta
+        type: metadata
+      invenio-records-editor:
+        description: Record editor for Invenio (Python part).
+        maintainers:
+          - topless
+        state: alpha
+        type: metadata
+      invenio-records-editor-js:
+        description: Record editor for Invenio (JavaScript part).
+        maintainers:
+          - topless
+        state: alpha
         type: metadata
       invenio-records-files:
         description: Invenio modules that integrates records and files.
