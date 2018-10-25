@@ -1000,6 +1000,17 @@ orgs:
         state: planning
         type: independent
         i18n: false
+      react-searchkit:
+        description: React component library for interacting with a REST API.
+        maintainers:
+          - ntarocco
+          - zzacharo
+        state: planning
+        type: metadata
+        travis:
+          pypideploy: false
+          active: true
+        i18n: false
       requirements-builder:
         description: Build requirements files from setup.py.
         maintainers:
