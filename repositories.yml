@@ -323,12 +323,12 @@ orgs:
         state: alpha
         type: independent
       flask-webpackext:
-        description: "*** WORK IN PROGRESS *** Webpack integration for Flask."
+        description: "Webpack integration for Flask."
         maintainers:
           - ntarocco
           - lnielsen
           - pferreir
-        state: planning
+        state: stable
         type: independent
       generator-invenio-js-module:
         description: ''
@@ -997,7 +997,7 @@ orgs:
           - ntarocco
           - lnielsen
           - pferreir
-        state: planning
+        state: stable
         type: independent
         i18n: false
       react-searchkit:
