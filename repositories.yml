@@ -442,6 +442,9 @@ orgs:
         maintainers:
           - drjova
           - lnielsen
+        branches:
+          - master
+          - maint-1.0
         state: beta
         type: base
       invenio-authorities:
@@ -587,6 +590,9 @@ orgs:
         maintainers:
           - lnielsen
           - tiborsimko
+        branches:
+          - master
+          - maint-1.0
         state: beta
         type: base
       invenio-ill:
@@ -771,6 +777,9 @@ orgs:
         description: Invenio records REST API module.
         maintainers:
           - lnielsen
+        branches:
+          - master
+          - maint-1.1
         state: beta
         type: metadata
       invenio-records-ui:
@@ -818,6 +827,9 @@ orgs:
         maintainers:
           - drjova
           - lnielsen
+        branches:
+          - master
+          - maint-1.0
         state: beta
         type: metadata
       invenio-sequencegenerator:
@@ -856,6 +868,9 @@ orgs:
           - drjova
           - lnielsen
           - switowski
+        branches:
+          - master
+          - maint-1.0
         state: beta
         type: base
       invenio-userprofiles:
