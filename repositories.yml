@@ -331,6 +331,7 @@ orgs:
           - pferreir
         state: stable
         type: independent
+        i18n: false
       generator-invenio-js-module:
         description: ''
         maintainers:
