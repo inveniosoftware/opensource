@@ -378,18 +378,21 @@ orgs:
         has_wiki: true
       invenio-access:
         description: Invenio module for common role based access control.
+        branches:
+          - master
+          - maint-1.0
         maintainers:
           - egabancho
           - switowski
           - tiborsimko
-        state: alpha
+        state: stable
         type: auth
       invenio-accounts:
         description: Invenio module for managing user accounts.
         maintainers:
           - lnielsen
           - switowski
-        state: beta
+        state: stable
         type: auth
       invenio-accounts-rest:
         description: Invenio modules that adds accounts REST API.
@@ -415,7 +418,7 @@ orgs:
           - lnielsen
           - egabancho
           - switowski
-        state: alpha
+        state: stable
         type: base
       invenio-app-demomarc21:
         description: Demo of an MARC21 based Invenio flavour.
@@ -447,7 +450,7 @@ orgs:
         branches:
           - master
           - maint-1.0
-        state: beta
+        state: stable
         type: base
       invenio-authorities:
         description: Invenio module that adds support for authority records
@@ -461,13 +464,13 @@ orgs:
           - lnielsen
           - switowski
           - tiborsimko
-        state: alpha
+        state: stable
         type: base
       invenio-cache:
         description: Cache module for Invenio
         maintainers:
           - lnielsen
-        state: beta
+        state: stable
         type: base
       invenio-circulation:
         description: Library circulation module for Invenio.
@@ -500,7 +503,7 @@ orgs:
         description: Integration layer between Celery and Invenio.
         maintainers:
           - lnielsen
-        state: beta
+        state: stable
         type: base
       invenio-collections:
         description: Invenio module for organizing metadata into collections.
@@ -521,7 +524,7 @@ orgs:
           - lnielsen
           - switowski
           - tiborsimko
-        state: beta
+        state: stable
         type: base
       invenio-csl-js:
         description: ''
@@ -544,7 +547,7 @@ orgs:
         maintainers:
           - lnielsen
           - egabancho
-        state: beta
+        state: stable
         type: base
       invenio-deposit:
         description: Invenio module for depositing metadata using workflows.
@@ -579,7 +582,7 @@ orgs:
         maintainers:
           - lnielsen
           - drjova
-        state: beta
+        state: stable
         type: base
       invenio-github:
         description: GitHub integration for Invenio.
@@ -595,7 +598,7 @@ orgs:
         branches:
           - master
           - maint-1.0
-        state: beta
+        state: stable
         type: base
       invenio-ill:
         description: ''
@@ -607,25 +610,25 @@ orgs:
         description: Record indexer for Invenio.
         maintainers:
           - lnielsen
-        state: beta
+        state: stable
         type: metadata
       invenio-jsonschemas:
         description: Invenio Schema Registry
         maintainers:
           - slint
-        state: alpha
+        state: stable
         type: metadata
       invenio-logging:
         description: Invenio logging module.
         maintainers:
           - lnielsen
-        state: alpha
+        state: stable
         type: base
       invenio-mail:
         description: Invenio mail module.
         maintainers:
           - lnielsen
-        state: beta
+        state: stable
         type: base
       invenio-marc21:
         description: Nice defaults for Invenio overlays using MARC21.
@@ -658,20 +661,20 @@ orgs:
         description: Invenio module that adds more fun to the platform.
         maintainers:
           - lnielsen
-        state: beta
+        state: stable
         type: metadata
       invenio-oauth2server:
         description: Invenio modules that implements OAuth 2 server.
         maintainers:
           - lnielsen
-        state: beta
+        state: stable
         type: auth
       invenio-oauthclient:
         description: Invenio module that provides OAuth web authorization support.
         maintainers:
           - lnielsen
           - egabancho
-        state: beta
+        state: stable
         type: auth
       invenio-openaire:
         description: Invenio module for OpenAIRE integration.
@@ -707,7 +710,7 @@ orgs:
           - lnielsen
           - egabancho
           - switowski
-        state: beta
+        state: stable
         type: metadata
       invenio-pidrelations:
         description: "**WORK IN PROGRESS** - warning: repo can be squashed and force pushed!"
@@ -745,7 +748,7 @@ orgs:
         description: Invenio-Records is a metadata storage module.
         maintainers:
           - lnielsen
-        state: beta
+        state: stable
         type: metadata
       invenio-records-editor:
         description: Record editor for Invenio (Python part).
@@ -782,7 +785,7 @@ orgs:
         branches:
           - master
           - maint-1.1
-        state: beta
+        state: stable
         type: metadata
       invenio-records-ui:
         description: Invenio records user interface module.
@@ -790,7 +793,7 @@ orgs:
           - lnielsen
           - drjova
           - switowski
-        state: beta
+        state: stable
         type: metadata
       invenio-rest:
         description: REST API support for Invenio.
@@ -798,7 +801,7 @@ orgs:
           - lnielsen
           - drjova
           - switowski
-        state: alpha
+        state: stable
         type: base
       invenio-s3:
         description: S3 file storage support for Invenio.
@@ -810,7 +813,7 @@ orgs:
         description: Invenio module for information retrieval.
         maintainers:
           - lnielsen
-        state: beta
+        state: stable
         type: metadata
       invenio-search-js:
         description: Invenio-Search client library for building the web UI.
@@ -818,7 +821,7 @@ orgs:
           - ntarocco
           - zzacharo
           - drjova
-        state: alpha
+        state: stable
         travis:
           pypideploy: false
           active: true
@@ -832,7 +835,7 @@ orgs:
         branches:
           - master
           - maint-1.0
-        state: beta
+        state: stable
         type: metadata
       invenio-sequencegenerator:
         description: Invenio module for generating sequences.
@@ -873,13 +876,13 @@ orgs:
         branches:
           - master
           - maint-1.0
-        state: beta
+        state: stable
         type: base
       invenio-userprofiles:
         description: User profiles module for Invenio.
         maintainers:
           - slint
-        state: alpha
+        state: stable
         type: auth
       invenio-webhooks:
         description: Invenio module for processing webhook events.
@@ -1022,7 +1025,7 @@ orgs:
         maintainers:
           - ntarocco
           - zzacharo
-        state: planning
+        state: alpha
         type: metadata
         travis:
           pypideploy: false
