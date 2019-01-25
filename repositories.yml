@@ -300,6 +300,7 @@ orgs:
           menus.
         maintainers:
           - drjova
+          - jirikuncar
           - slint
         state: stable
         type: independent
