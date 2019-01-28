@@ -97,6 +97,7 @@ orgs:
           - kprzerwa
           - krzysztof
           - ksachs
+          - Leats
           - Letreguilly
           - lnielsen
           - ludmilamarian
@@ -429,10 +430,11 @@ orgs:
       invenio-app-ils:
         description: Integrated Library System flavour of Invenio.
         maintainers:
+          - kprzerwa
           - ludmilamarian
           - ntarocco
-          - zzacharo
           - topless
+          - zzacharo
         state: alpha
         type: service
       invenio-archivematica:
@@ -440,6 +442,7 @@ orgs:
         maintainers:
           - egabancho
           - ntarocco
+          - Leats
         state: planning
         type: addon
       invenio-assets:
@@ -476,8 +479,10 @@ orgs:
         description: Library circulation module for Invenio.
         maintainers:
           - jma
+          - kprzerwa
           - ludmilamarian
           - ntarocco
+          - topless
           - zzacharo
         state: alpha
         type: addon
@@ -754,12 +759,14 @@ orgs:
         description: Record editor for Invenio (Python part).
         maintainers:
           - topless
+          - zzacharo
         state: alpha
         type: metadata
       invenio-records-editor-js:
         description: Record editor for Invenio (JavaScript part).
         maintainers:
           - topless
+          - zzacharo
         state: alpha
         type: metadata
       invenio-records-files:
