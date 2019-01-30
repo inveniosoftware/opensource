@@ -64,6 +64,7 @@ orgs:
           - gfavre
           - giokokos
           - GiorgosPa
+          - glignos
           - greut
           - gszpura
           - hachreak
@@ -412,6 +413,9 @@ orgs:
         description: Invenio admin module.
         maintainers:
           - lnielsen
+        branches:
+          - master
+          - maint-1.0
         state: stable
         type: base
       invenio-app:
@@ -628,6 +632,9 @@ orgs:
         description: Invenio logging module.
         maintainers:
           - lnielsen
+        branches:
+          - master
+          - maint-1.0
         state: stable
         type: base
       invenio-mail:
@@ -680,6 +687,9 @@ orgs:
         maintainers:
           - lnielsen
           - egabancho
+        branches:
+          - master
+          - maint-1.0
         state: stable
         type: auth
       invenio-openaire:
@@ -754,6 +764,9 @@ orgs:
         description: Invenio-Records is a metadata storage module.
         maintainers:
           - lnielsen
+        branches:
+          - master
+          - maint-1.0
         state: stable
         type: metadata
       invenio-records-editor:
@@ -793,6 +806,7 @@ orgs:
         branches:
           - master
           - maint-1.1
+          - maint-1.2
         state: stable
         type: metadata
       invenio-records-ui:
