@@ -204,7 +204,7 @@ orgs:
           - lnielsen
         branches:
           - master
-          - v3.0
+          - v3.*
         state: beta
         travis:
           active: true
@@ -369,6 +369,7 @@ orgs:
         branches:
           - master
           - legacy
+          - maint-3.1
           - maint-3.0
           - maint-2.1
           - maint-2.0
@@ -577,6 +578,7 @@ orgs:
         state: alpha
         travis:
           pypideploy: false
+          active: true
         type: files
       invenio-files-processor:
         description: PROTOTYPE!!! Invenio module for file processing tasks.
