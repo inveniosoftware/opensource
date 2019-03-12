@@ -204,7 +204,8 @@ orgs:
           - lnielsen
         branches:
           - master
-          - v3.*
+          - v3.0
+          - v3.1
         state: beta
         travis:
           active: true
@@ -1076,10 +1077,17 @@ orgs:
         type: independent
         i18n: false
       training:
-        description: Repository for Invenio training material.
+        description: Invenio v3 Training Material
         maintainers:
           - diegodelemos
-          - jbenito3
+          - kprzerwa
+          - lnielsen
+          - ntarocco
+          - slint
+          - zzacharo
+        branches:
+          - master
+          - v3.1
         state: stable
         type: management
         travis:
