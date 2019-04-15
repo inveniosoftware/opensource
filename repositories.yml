@@ -129,6 +129,7 @@ orgs:
           - pbroz
           - pedrogaudencio
           - petros-ioannidis
+          - pombredanne
           - ppanero
           - ppiotr
           - pronguen
@@ -363,6 +364,7 @@ orgs:
         description: Python C-based extension implementing fast integer bit sets
         maintainers:
           - tiborsimko
+          - pombredanne
         state: stable
         type: independent
       invenio:
