@@ -9,8 +9,8 @@ orgs:
           - drjova
           - egabancho
           - jbenito3
+          - kprzerwa
           - lnielsen
-          - ludmilamarian
           - ntarocco
           - slint
           - tiborsimko
@@ -19,7 +19,6 @@ orgs:
           - audub
           - jbenito3
           - lnielsen
-          - ludmilamarian
           - tiborsimko
       developers:
         permission: push
