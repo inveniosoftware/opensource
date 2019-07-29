@@ -20,6 +20,11 @@ orgs:
           - jbenito3
           - lnielsen
           - tiborsimko
+      inveniordm:
+        members:
+          - fenekku
+          - herrner
+          - tmorrell
       developers:
         permission: push
         repositories: "*"
@@ -70,6 +75,7 @@ orgs:
           - hachreak
           - harunurhan
           - helix84
+          - herrner
           - hjhsalo
           - invenio-developers
           - ioannistsanaktsidis
@@ -435,6 +441,16 @@ orgs:
           - switowski
         state: stable
         type: base
+      invenio-app-rdm:
+        description: RDM flavour of Invenio
+        maintainers:
+          - fenekku
+          - lnielsen
+          - ntarocco
+          - ppanero
+          - slint
+        state: alpha
+        type: service
       invenio-app-demomarc21:
         description: Demo of an MARC21 based Invenio flavour.
         maintainers:
@@ -632,6 +648,12 @@ orgs:
           - lnielsen
         state: stable
         type: metadata
+      invenio-index-migrator:
+        description: Elasticsearch index migrator for Invenio.
+        maintainers:
+          - slint
+        state: beta
+        type: metadata
       invenio-jsonschemas:
         description: Invenio Schema Registry
         maintainers:
@@ -770,6 +792,15 @@ orgs:
           - dinosk
         state: planning
         type: addon
+      invenio-rdm-records:
+        description: DataCite-based data model for InvenioRDM flavour.
+        maintainers:
+          - lnielsen
+          - ppanero
+        branches:
+          - master
+        state: alpha
+        type: metadata
       invenio-records:
         description: Invenio-Records is a metadata storage module.
         maintainers:
@@ -809,6 +840,15 @@ orgs:
         travis:
           pypideploy: false
         type: deposit
+      invenio-records-permissions:
+        description: Permissions for Invenio's records REST API.
+        maintainers:
+          - lnielsen
+          - ppanero
+        branches:
+          - master
+        state: beta
+        type: metadata
       invenio-records-rest:
         description: Invenio records REST API module.
         maintainers:
@@ -841,6 +881,13 @@ orgs:
           - egabancho
         state: alpha
         type: files
+      invenio-saml:
+        description: SAML support for Invenio.
+        maintainers:
+          - egabancho
+          - herrner
+        state: alpha
+        type: auth
       invenio-search:
         description: Invenio module for information retrieval.
         maintainers:
