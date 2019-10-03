@@ -14,17 +14,27 @@ orgs:
           - ntarocco
           - slint
           - tiborsimko
-      coordinators:
-        members:
-          - audub
-          - jbenito3
-          - lnielsen
-          - tiborsimko
       inveniordm:
         members:
           - fenekku
           - herrner
+          - ppanero
           - tmorrell
+      inveniordm-maintainers:
+        permission: write
+        repositories:
+          - cookiecutter-invenio-rdm
+          - invenio-app-rdm
+          - invenio-cli
+          - invenio-exporter
+          - invenio-rdm-records
+          - invenio-records-permissions
+          - invenio-s3
+          - invenio-saml
+          - invenio-sitemap
+        members:
+          - fenekku
+          - ppanero
       developers:
         permission: push
         repositories: "*"
@@ -172,6 +182,12 @@ orgs:
           - zazasa
           - zzacharo
     repositories:
+      autobot:
+        description: Bot-assistant for Invenio maintainers.
+        maintainers:
+          - slint
+        state: alpha
+        type: independent
       cernservicexml:
         description: Small library to generate a CERN XSLS Service XML.
         maintainers:
@@ -230,6 +246,15 @@ orgs:
           active: true
           pypideploy: false
         type: core
+      cookiecutter-invenio-rdm:
+        description: Cookiecutter template for a new Invenio RDM instance.
+        state: alpha
+        maintainers:
+          - lnielsen
+        travis:
+          active: true
+          pypideploy: false
+        type: rdm
       counter-robots:
         description: Library for COUNTER-compliant detection of machines and robots.
         maintainers:
@@ -401,15 +426,19 @@ orgs:
           - maint-1.0
         maintainers:
           - egabancho
-          - switowski
           - tiborsimko
+        state: stable
+        type: auth
+      invenio-accessrequests:
+        description: Access requests for Invenio.
+        branches:
+          - master
         state: stable
         type: auth
       invenio-accounts:
         description: Invenio module for managing user accounts.
         maintainers:
           - lnielsen
-          - switowski
         state: stable
         type: auth
       invenio-accounts-rest:
@@ -438,7 +467,6 @@ orgs:
         maintainers:
           - lnielsen
           - egabancho
-          - switowski
         state: stable
         type: base
       invenio-app-rdm:
@@ -495,7 +523,6 @@ orgs:
         description: Base package for building the Invenio application.
         maintainers:
           - lnielsen
-          - switowski
           - tiborsimko
         state: stable
         type: base
@@ -504,6 +531,12 @@ orgs:
         maintainers:
           - lnielsen
         state: stable
+        type: base
+      invenio-cli:
+        description: Cache module for Invenio
+        maintainers:
+          - ppanero
+        state: alpha
         type: base
       invenio-circulation:
         description: Library circulation module for Invenio.
@@ -557,7 +590,6 @@ orgs:
         maintainers:
           - drjova
           - lnielsen
-          - switowski
           - tiborsimko
         state: stable
         type: base
@@ -591,6 +623,10 @@ orgs:
           - egabancho
         state: alpha
         type: deposit
+      invenio-exporter:
+        description: Exporter to make downloadable dumps.
+        state: alpha
+        type: addon
       invenio-files-js:
         description: Invenio-Files-JS
         maintainers:
@@ -691,7 +727,6 @@ orgs:
         description: Utilities for migrating past Invenio versions to Invenio 3.0.
         maintainers:
         - egabancho
-        - switowski
         state: alpha
         type: addon
       invenio-oaiharvester:
@@ -749,7 +784,6 @@ orgs:
         description: Invenio module that adds support for static pages.
         maintainers:
         - lnielsen
-        - switowski
         state: alpha
         type: addon
       invenio-pidstore:
@@ -757,7 +791,6 @@ orgs:
         maintainers:
           - lnielsen
           - egabancho
-          - switowski
         state: stable
         type: metadata
       invenio-pidrelations:
@@ -864,7 +897,6 @@ orgs:
         maintainers:
           - lnielsen
           - drjova
-          - switowski
         state: stable
         type: metadata
       invenio-rest:
@@ -872,7 +904,6 @@ orgs:
         maintainers:
           - lnielsen
           - drjova
-          - switowski
         state: stable
         type: base
       invenio-s3:
@@ -920,7 +951,6 @@ orgs:
         description: Invenio module for generating sequences.
         maintainers:
           - egabancho
-          - switowski
         state: alpha
         type: addon
       invenio-sipstore:
@@ -928,6 +958,10 @@ orgs:
         maintainers:
           - lnielsen
           - slint
+        state: alpha
+        type: addon
+      invenio-sitemap:
+        description: Sitemap XMLs for Invenio.
         state: alpha
         type: addon
       invenio-sse:
@@ -951,7 +985,6 @@ orgs:
         maintainers:
           - drjova
           - lnielsen
-          - switowski
         branches:
           - master
           - maint-1.0
@@ -1118,6 +1151,16 @@ orgs:
           - jirikuncar
         state: stable
         type: independent
+        i18n: false
+      rfcs:
+        description: RFCs for Invenio.
+        branches:
+          - master
+        state: stable
+        type: management
+        travis:
+          active: false
+          pypideploy: false
         i18n: false
       timegate:
         description: A Memento TimeGate
