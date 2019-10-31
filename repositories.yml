@@ -188,6 +188,13 @@ orgs:
           - slint
         state: alpha
         type: independent
+      base32-lib:
+        description: Library to generate, encode and decode random base32 strings.
+        maintainers:
+          - fenekku
+          - ppanero
+        state: alpha
+        type: independent
       cernservicexml:
         description: Small library to generate a CERN XSLS Service XML.
         maintainers:
