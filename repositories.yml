@@ -258,6 +258,8 @@ orgs:
         state: alpha
         maintainers:
           - lnielsen
+          - fenekku
+          - ppanero
         travis:
           active: true
           pypideploy: false
@@ -540,9 +542,10 @@ orgs:
         state: stable
         type: base
       invenio-cli:
-        description: Cache module for Invenio
+        description: CLI module for Invenio
         maintainers:
           - ppanero
+          - fenekku
         state: alpha
         type: base
       invenio-circulation:
@@ -632,6 +635,9 @@ orgs:
         type: deposit
       invenio-exporter:
         description: Exporter to make downloadable dumps.
+        maintainers:
+          - fenekku
+          - ppanero
         state: alpha
         type: addon
       invenio-files-js:
@@ -837,6 +843,7 @@ orgs:
         maintainers:
           - lnielsen
           - ppanero
+          - fenekku
         branches:
           - master
         state: alpha
@@ -885,6 +892,7 @@ orgs:
         maintainers:
           - lnielsen
           - ppanero
+          - fenekku
         branches:
           - master
         state: beta
@@ -917,6 +925,8 @@ orgs:
         description: S3 file storage support for Invenio.
         maintainers:
           - egabancho
+          - fenekku
+          - ppanero
         state: alpha
         type: files
       invenio-saml:
@@ -924,6 +934,8 @@ orgs:
         maintainers:
           - egabancho
           - herrner
+          - fenekku
+          - ppanero
         state: alpha
         type: auth
       invenio-search:
@@ -971,6 +983,9 @@ orgs:
         description: Sitemap XMLs for Invenio.
         state: alpha
         type: addon
+        maintainers:
+          - fenekku
+          - ppanero
       invenio-sse:
         description: Server Send Events for Invenio.
         maintainers:
