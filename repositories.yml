@@ -229,6 +229,7 @@ orgs:
           active: true
           pypideploy: false
         type: core
+        url: ''
       cookiecutter-invenio-instance:
         description: Cookiecutter template for an Invenio instance.
         maintainers:
@@ -243,6 +244,7 @@ orgs:
           active: true
           pypideploy: false
         type: core
+        url: ''
       cookiecutter-invenio-module:
         description: Cookiecutter template for an Invenio module.
         maintainers:
@@ -254,6 +256,7 @@ orgs:
           active: true
           pypideploy: false
         type: core
+        url: ''
       cookiecutter-invenio-rdm:
         description: Cookiecutter template for a new Invenio RDM instance.
         state: alpha
@@ -265,6 +268,7 @@ orgs:
           active: true
           pypideploy: false
         type: rdm
+        url: ''
       counter-robots:
         description: Library for COUNTER-compliant detection of machines and robots.
         maintainers:
