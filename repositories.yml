@@ -16,10 +16,17 @@ orgs:
           - tiborsimko
       inveniordm:
         members:
+          - cfgamboa
+          - dfdan
+          - duanoc
           - fenekku
+          - hbayindir
           - herrner
+          - mat-gro
+          - mb-wali
           - ppanero
           - tmorrell
+          - zzacharo
       inveniordm-maintainers:
         permission: write
         repositories:
@@ -56,16 +63,19 @@ orgs:
           - bruno314
           - carantunes
           - cbacchi
+          - cfgamboa
           - CharlotteIrisC
           - ChiaraBi
           - costaflavio
           - danmichaelo
           - david-caro
           - ddaze
+          - dfdan
           - diegodelemos
           - dinosk
           - DorsivalG
           - drjova
+          - duanoc
           - Dziolas
           - egabancho
           - epsallida
@@ -86,6 +96,7 @@ orgs:
           - gszpura
           - hachreak
           - harunurhan
+          - hbayindir
           - helix84
           - Herrner
           - hjhsalo
@@ -124,6 +135,8 @@ orgs:
           - ludmilamarian
           - makistsantekidis
           - marioskogias
+          - mat-gro
+          - mb-wali
           - michamos
           - mihaibivol
           - miltalex
