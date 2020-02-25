@@ -35,6 +35,7 @@ orgs:
         members:
           - fenekku
           - ppanero
+          - zzacharo
       developers:
         permission: push
         repositories: "*"
@@ -265,6 +266,7 @@ orgs:
           - lnielsen
           - fenekku
           - ppanero
+          - zzacharo
         travis:
           active: true
           pypideploy: false
@@ -492,6 +494,7 @@ orgs:
           - ntarocco
           - ppanero
           - slint
+          - zzacharo
         state: alpha
         type: service
       invenio-app-demomarc21:
@@ -552,6 +555,7 @@ orgs:
         maintainers:
           - ppanero
           - fenekku
+          - zzacharo
         state: alpha
         type: base
       invenio-circulation:
@@ -850,6 +854,7 @@ orgs:
           - lnielsen
           - ppanero
           - fenekku
+          - zzacharo
         branches:
           - master
         state: alpha
@@ -899,6 +904,7 @@ orgs:
           - lnielsen
           - ppanero
           - fenekku
+          - zzacharo
         branches:
           - master
         state: beta
@@ -933,6 +939,7 @@ orgs:
           - egabancho
           - fenekku
           - ppanero
+          - zzacharo
         state: alpha
         type: files
       invenio-saml:
