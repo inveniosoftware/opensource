@@ -403,6 +403,19 @@ orgs:
           active: true
           pypideploy: false
         type: core
+      helm-invenio:
+        description: Helm charts for deploying an Invenio instance
+        maintainers:
+          - diegodelemos
+          - fenekku
+          - Glignos
+          - lnielsen
+          - ppanero
+          - zzacharo
+        branches:
+          - master
+        state: alpha
+        type: independent
       idutils:
         description: Small Python library to validate persistent identifiers used in scholarly
           communication.
