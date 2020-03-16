@@ -305,6 +305,18 @@ orgs:
           - lnielsen
         state: stable
         type: independent
+      demo-inveniordm:
+        description: Demosite for InvenioRDM.
+        maintainers:
+          - lnielsen
+          - ppanero
+          - zzacharo
+        state: stable
+        type: independent
+        url: https://inveniordm.web.cern.ch
+        travis:
+          active: true
+          pypideploy: false
       dictdiffer:
         description: 'Dictdiffer is a module that helps you to diff and patch dictionaries. '
         maintainers:
