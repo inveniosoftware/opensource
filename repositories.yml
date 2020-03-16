@@ -39,6 +39,7 @@ orgs:
           - invenio-s3
           - invenio-saml
           - invenio-sitemap
+          - helm-invenio
         members:
           - fenekku
           - ppanero
