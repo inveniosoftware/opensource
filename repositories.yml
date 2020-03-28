@@ -305,6 +305,21 @@ orgs:
           - diegodelemos
         state: stable
         type: independent
+      docs-invenio-rdm:
+        description: InvenioRDM docs
+          maintainers:
+            - fenekku
+            - lnielsen
+            - ppanero
+            - zzacharo
+          type: docs
+      docs-invenio-ils:
+        description: InvenioILS docs
+          maintainers:
+            - kprzerwa
+            - topless
+            - zzacharo
+          type: docs
       dojson:
         description: Simple pythonic JSON to JSON converter.
         maintainers:
@@ -518,11 +533,17 @@ orgs:
         state: alpha
         type: service
       invenio-app-ils:
-        description: Integrated Library System flavour of Invenio.
+        description: Integrated Library System (ILS) flavour of Invenio.
         maintainers:
           - kprzerwa
-          - ludmilamarian
-          - ntarocco
+          - topless
+          - zzacharo
+        state: alpha
+        type: service
+      invenio-app-ils-ui:
+        description: Single Page App built with React for InvenioILS.
+        maintainers:
+          - kprzerwa
           - topless
           - zzacharo
         state: alpha
