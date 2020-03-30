@@ -307,19 +307,19 @@ orgs:
         type: independent
       docs-invenio-rdm:
         description: InvenioRDM docs
-          maintainers:
-            - fenekku
-            - lnielsen
-            - ppanero
-            - zzacharo
-          type: docs
+        maintainers:
+          - fenekku
+          - lnielsen
+          - ppanero
+          - zzacharo
+        type: docs
       docs-invenio-ils:
         description: InvenioILS docs
-          maintainers:
-            - kprzerwa
-            - topless
-            - zzacharo
-          type: docs
+        maintainers:
+          - kprzerwa
+          - topless
+          - zzacharo
+        type: docs
       dojson:
         description: Simple pythonic JSON to JSON converter.
         maintainers:
