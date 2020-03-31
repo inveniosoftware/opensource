@@ -46,6 +46,7 @@ orgs:
           - docker-invenio
           - flask-resources
           - helm-invenio
+          - demo-inveniordm
           - invenio-app-rdm
           - invenio-cli
           - invenio-drafts-resources
