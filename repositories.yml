@@ -31,6 +31,7 @@ orgs:
         permission: write
         repositories:
           - cookiecutter-invenio-rdm
+          - helm-invenio
           - invenio-app-rdm
           - invenio-cli
           - invenio-exporter
@@ -39,7 +40,8 @@ orgs:
           - invenio-s3
           - invenio-saml
           - invenio-sitemap
-          - helm-invenio
+          - react-invenio-deposit
+          - react-invenio-forms
         members:
           - fenekku
           - ppanero
@@ -1227,6 +1229,28 @@ orgs:
           - pferreir
         state: stable
         type: independent
+        i18n: false
+      react-invenio-deposit:
+        description: React application for Invenio deposit forms.
+        maintainers:
+          - fenekku
+          - zzacharo
+        state: alpha
+        type: deposit
+        travis:
+          pypideploy: false
+          active: true
+        i18n: false
+      react-invenio-forms:
+        description: React component library for Formik components.
+        maintainers:
+          - fenekku
+          - zzacharo
+        state: alpha
+        type: base
+        travis:
+          pypideploy: false
+          active: true
         i18n: false
       react-searchkit:
         description: React component library for interacting with a REST API.
