@@ -31,12 +31,14 @@ orgs:
         permission: write
         repositories:
           - cookiecutter-invenio-rdm
+          - flask-resources
           - helm-invenio
           - invenio-app-rdm
           - invenio-cli
           - invenio-exporter
           - invenio-rdm-records
           - invenio-records-permissions
+          - invenio-resources
           - invenio-s3
           - invenio-saml
           - invenio-sitemap
@@ -405,6 +407,13 @@ orgs:
           - slint
         state: stable
         type: independent
+      flask-resources:
+        description: REST APIs for Flask
+        maintainers:
+          - ppanero
+          - lnielsen
+        state: alpha
+        type: independent
       flask-security-fork:
         description: 'Fork of Flask-Security: quick and simple security for Flask applications.'
         maintainers:
@@ -511,6 +520,10 @@ orgs:
         type: auth
       invenio-accounts:
         description: Invenio module for managing user accounts.
+        branches:
+          - master
+          - maint-v1.1
+          - maint-v1.2
         maintainers:
           - lnielsen
         state: stable
@@ -911,6 +924,13 @@ orgs:
           - dinosk
         state: planning
         type: addon
+      invenio-resources:
+        description: REST APIs for Invenio.
+        maintainers:
+          - ppanero
+          - lnielsen
+        state: alpha
+        type: metadata
       invenio-rdm-records:
         description: DataCite-based data model for InvenioRDM flavour.
         maintainers:
