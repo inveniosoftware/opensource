@@ -453,18 +453,6 @@ orgs:
         state: stable
         type: independent
         i18n: false
-      generator-invenio-js-module:
-        description: ''
-        maintainers:
-          - drjova
-          - egabancho
-          - lnielsen
-          - tiborsimko
-        state: alpha
-        travis:
-          active: true
-          pypideploy: false
-        type: core
       helm-invenio:
         description: Helm charts for deploying an Invenio instance
         maintainers:
@@ -544,12 +532,6 @@ orgs:
           - dinosk
         state: alpha
         type: addon
-      invenio-acquisitions:
-        description: ''
-        maintainers:
-          - egabancho
-        state: planning
-        type: addon
       invenio-admin:
         description: Invenio admin module.
         maintainers:
@@ -617,12 +599,6 @@ orgs:
           - maint-1.0
         state: stable
         type: base
-      invenio-authorities:
-        description: Invenio module that adds support for authority records
-        maintainers:
-          - tiborsimko
-        state: planning
-        type: addon
       invenio-base:
         description: Base package for building the Invenio application.
         maintainers:
@@ -781,12 +757,6 @@ orgs:
           - maint-1.0
         state: stable
         type: base
-      invenio-ill:
-        description: ''
-        maintainers:
-          - egabancho
-        state: planning
-        type: addon
       invenio-indexer:
         description: Record indexer for Invenio.
         maintainers:
@@ -822,12 +792,6 @@ orgs:
         type: base
       invenio-marc21:
         description: Nice defaults for Invenio overlays using MARC21.
-        maintainers:
-          - tiborsimko
-        state: alpha
-        type: addon
-      invenio-memento:
-        description: Invenio module makes your site Memento compliant.
         maintainers:
           - tiborsimko
         state: alpha
@@ -1186,13 +1150,6 @@ orgs:
         state: alpha
         type: independent
         i18n: false
-      kwalitee:
-        description: Tool for checking commit kwalitee.
-        maintainers:
-          - tiborsimko
-        state: alpha
-        type: independent
-        i18n: false
       license-changer:
         description: Scripts for automating license change for Invenio.
         maintainers:
@@ -1311,13 +1268,6 @@ orgs:
         travis:
           active: false
           pypideploy: false
-        i18n: false
-      timegate:
-        description: A Memento TimeGate
-        maintainers:
-          - tiborsimko
-        state: alpha
-        type: independent
         i18n: false
       training:
         description: Invenio v3 Training Material
