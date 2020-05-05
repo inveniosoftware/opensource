@@ -403,6 +403,11 @@ orgs:
           - drjova
         state: alpha
         type: independent
+      flask-kvsession:
+        description: A drop-in replacement for Flask's session handling using server-side sessions.
+        maintainers:
+          - slint
+        url: http://pythonhosted.org/Flask-KVSession/
       flask-menu:
         description: Flask-Menu is a Flask extension that adds support for generating
           menus.
