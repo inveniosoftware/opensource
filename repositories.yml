@@ -5,15 +5,10 @@ orgs:
         permission: admin
         repositories: "*"
         members:
-          - diegodelemos
-          - drjova
-          - egabancho
           - jbenito3
-          - kprzerwa
           - lnielsen
           - ntarocco
           - slint
-          - tiborsimko
       inveniordm:
         members:
           - cfgamboa
@@ -26,6 +21,16 @@ orgs:
           - mb-wali
           - ppanero
           - tmorrell
+          - zzacharo
+      core-maintainers:
+        permission: maintain
+        repositories: "*"
+        members:
+          - diegodelemos
+          - egabancho
+          - kprzerwa
+          - ppanero
+          - tiborsimko
           - zzacharo
       inveniordm-maintainers:
         permission: write
