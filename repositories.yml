@@ -9,6 +9,17 @@ orgs:
           - lnielsen
           - ntarocco
           - slint
+      core-maintainers:
+        permission: maintain
+        repositories: "*"
+        members:
+          - diegodelemos
+          - drjova
+          - egabancho
+          - kprzerwa
+          - ppanero
+          - tiborsimko
+          - zzacharo
       inveniordm:
         members:
           - cfgamboa
@@ -21,16 +32,6 @@ orgs:
           - mb-wali
           - ppanero
           - tmorrell
-          - zzacharo
-      core-maintainers:
-        permission: maintain
-        repositories: "*"
-        members:
-          - diegodelemos
-          - egabancho
-          - kprzerwa
-          - ppanero
-          - tiborsimko
           - zzacharo
       inveniordm-maintainers:
         permission: write
@@ -1104,7 +1105,7 @@ orgs:
       inveniosoftware.org:
         description: Sources of the http://inveniosoftware.org web site.
         maintainers:
-          - costaflavio
+          - fenekku
           - jbenito3
           - lnielsen
           - tiborsimko
@@ -1116,7 +1117,7 @@ orgs:
       invenio-software.org:
         description: See https://github.com/inveniosoftware/inveniosoftware.org (repository only used for GitHub Pages).
         maintainers:
-          - costaflavio
+          - fenekku
           - jbenito3
           - lnielsen
           - tiborsimko
