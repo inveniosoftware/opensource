@@ -575,14 +575,6 @@ orgs:
           - zzacharo
         state: alpha
         type: service
-      invenio-app-ils-ui:
-        description: Single Page App built with React for InvenioILS.
-        maintainers:
-          - kprzerwa
-          - topless
-          - zzacharo
-        state: alpha
-        type: service
       invenio-archivematica:
         description: "*** WORK IN PROGRESS *** "
         maintainers:
@@ -1219,6 +1211,14 @@ orgs:
         state: stable
         type: independent
         i18n: false
+      react-invenio-app-ils:
+        description: Single Page App built with React for InvenioILS.
+        maintainers:
+          - kprzerwa
+          - topless
+          - zzacharo
+        state: alpha
+        type: service
       react-invenio-deposit:
         description: React application for Invenio deposit forms.
         maintainers:
