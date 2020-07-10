@@ -42,6 +42,7 @@ orgs:
           - invenio-app-rdm
           - invenio-cli
           - invenio-exporter
+          - invenio-drafts-resources
           - invenio-rdm-records
           - invenio-records-permissions
           - invenio-records-resources
@@ -699,6 +700,15 @@ orgs:
         maintainers:
           - lnielsen
           - egabancho
+        state: alpha
+        type: deposit
+      invenio-drafts-resources:
+        description: Drafts REST APIs for Invenio.
+        maintainers:
+          - fenekku
+          - lnielsen
+          - ppanero
+          - zzacharo
         state: alpha
         type: deposit
       invenio-exporter:
