@@ -44,7 +44,7 @@ orgs:
           - invenio-exporter
           - invenio-rdm-records
           - invenio-records-permissions
-          - invenio-resources
+          - invenio-records-resources
           - invenio-s3
           - invenio-saml
           - invenio-sitemap
@@ -895,11 +895,13 @@ orgs:
           - dinosk
         state: planning
         type: addon
-      invenio-resources:
-        description: REST APIs for Invenio.
+      invenio-records-resources:
+        description: Records REST APIs for Invenio.
         maintainers:
-          - ppanero
+          - fenekku
           - lnielsen
+          - ppanero
+          - zzacharo
         state: alpha
         type: metadata
       invenio-rdm-records:
