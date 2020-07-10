@@ -22,6 +22,7 @@ orgs:
           - zzacharo
       inveniordm:
         members:
+          - alexdutton
           - cfgamboa
           - dfdan
           - duanoc
@@ -37,10 +38,12 @@ orgs:
         permission: write
         repositories:
           - cookiecutter-invenio-rdm
+          - docker-invenio
           - flask-resources
           - helm-invenio
           - invenio-app-rdm
           - invenio-cli
+          - invenio-drafts-resources
           - invenio-exporter
           - invenio-drafts-resources
           - invenio-rdm-records
@@ -61,6 +64,7 @@ orgs:
         members:
           - aaccomazzi
           - adrianp
+          - alexdutton
           - alizeepace
           - anastass
           - andrewm89
@@ -703,7 +707,7 @@ orgs:
         state: alpha
         type: deposit
       invenio-drafts-resources:
-        description: Drafts REST APIs for Invenio.
+        description: Submission/deposit module for Invenio
         maintainers:
           - fenekku
           - lnielsen
@@ -730,6 +734,7 @@ orgs:
       invenio-files-processor:
         description: Invenio module for file processing tasks.
         maintainers:
+          - carantunes
           - lnielsen
           - ppanero
         state: alpha
