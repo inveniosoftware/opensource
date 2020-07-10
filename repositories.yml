@@ -718,9 +718,10 @@ orgs:
           active: true
         type: files
       invenio-files-processor:
-        description: PROTOTYPE!!! Invenio module for file processing tasks.
+        description: Invenio module for file processing tasks.
         maintainers:
           - lnielsen
+          - ppanero
         state: alpha
         type: addon
       invenio-files-rest:
