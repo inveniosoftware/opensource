@@ -45,14 +45,15 @@ orgs:
           - invenio-app-rdm
           - invenio-cli
           - invenio-drafts-resources
-          - invenio-exporter
           - invenio-drafts-resources
+          - invenio-exporter
           - invenio-rdm-records
           - invenio-records-permissions
           - invenio-records-resources
           - invenio-s3
           - invenio-saml
           - invenio-sitemap
+          - marshmallow-utils
           - react-invenio-deposit
           - react-invenio-forms
         members:
@@ -1180,6 +1181,13 @@ orgs:
           active: false
           pypideploy: false
         url: ''
+      marshmallow-utils:
+          description: Utilities for Marshmallow.
+          maintainers:
+            - lnielsen
+          state: alpha
+          type: independent
+          i18n: false
       metainvenio:
         description: CLI management tool for Invenio projects.
         maintainers:
