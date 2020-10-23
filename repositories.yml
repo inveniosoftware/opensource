@@ -612,6 +612,12 @@ orgs:
           - tiborsimko
         state: stable
         type: base
+      invenio-banners:
+        description: Create and show banners with useful messages to users.
+        maintainers:
+          - ntarocco
+        state: alpha
+        type: addon
       invenio-cache:
         description: Cache module for Invenio
         maintainers:
