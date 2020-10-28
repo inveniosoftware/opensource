@@ -354,6 +354,17 @@ orgs:
           - diegodelemos
         state: stable
         type: independent
+      docker-services-cli:
+        description: Docker services command line interface.
+        maintainers:
+          - lnielsen
+          - ntarocco
+          - ppanero
+          - slint
+          - zzacharo
+        state: alpha
+        type: independent
+        i18n: false
       docs-invenio-rdm:
         description: InvenioRDM docs
         maintainers:
