@@ -49,7 +49,6 @@ orgs:
           - invenio-app-rdm
           - invenio-cli
           - invenio-drafts-resources
-          - invenio-drafts-resources
           - invenio-exporter
           - invenio-rdm-records
           - invenio-records-permissions
@@ -128,6 +127,7 @@ orgs:
           - Herrner
           - hjhsalo
           - invenio-developers
+          - inveniobot
           - ioannistsanaktsidis
           - ioanungurean
           - jacenkow
@@ -194,7 +194,6 @@ orgs:
           - ppanero
           - ppiotr
           - pronguen
-          - puntonim
           - PXke
           - RaoOfPhysics
           - raqueljimenez
@@ -1102,7 +1101,9 @@ orgs:
         type: addon
         maintainers:
           - alexsdutton
-          - ppanero
+        branches:
+          - main
+        default_branch: main
       invenio-sse:
         description: Server Send Events for Invenio.
         maintainers:
