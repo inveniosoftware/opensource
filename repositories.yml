@@ -22,21 +22,25 @@ orgs:
           - zzacharo
       inveniordm:
         members:
-          - alexdutton
+          - alexsdutton
           - baldemir
+          - carsonicator
           - cfgamboa
           - dfdan
           - duanoc
           - fenekku
           - hbayindir
           - herrner
+          - kristiholmes
           - mat-gro
+          - max-moser
           - mb-wali
           - ppanero
+          - saragon02
           - tmorrell
           - zzacharo
       inveniordm-maintainers:
-        permission: write
+        permission: maintain
         repositories:
           - cookiecutter-invenio-rdm
           - docker-invenio
@@ -66,7 +70,7 @@ orgs:
         members:
           - aaccomazzi
           - adrianp
-          - alexdutton
+          - alexsdutton
           - alizeepace
           - anastass
           - andrewm89
@@ -82,6 +86,7 @@ orgs:
           - bouzlibop
           - bruno314
           - carantunes
+          - carsonicator
           - cbacchi
           - cenouralm
           - cfgamboa
@@ -136,7 +141,6 @@ orgs:
           - jgarcial
           - jirikuncar
           - jma
-          - jmacmahon
           - jmartinm
           - jochenklein
           - jrbl
@@ -147,8 +151,8 @@ orgs:
           - Kennethhole
           - Kjili
           - kneczaj
-          - konstantinoskostis
           - KonstantinaStoikou
+          - konstantinoskostis
           - kprzerwa
           - krzysztof
           - ksachs
@@ -159,6 +163,7 @@ orgs:
           - makistsantekidis
           - marioskogias
           - mat-gro
+          - max-moser
           - mb-wali
           - michamos
           - mihaibivol
@@ -171,9 +176,7 @@ orgs:
           - natsheh
           - nharraud
           - nikofil
-          - njbeyli
           - nkalodimas
-          - noumar
           - ntarocco
           - okraskaj
           - omelkonian
@@ -199,7 +202,6 @@ orgs:
           - rikirenz
           - robertwinchell
           - robk5uj
-          - roksys
           - romanchyla
           - rsripada
           - SamiHiltunen
@@ -216,18 +218,32 @@ orgs:
           - topless
           - traviscb
           - tsgit
-          - valkyriesavage
           - vladbmihaescu
           - WohthaN
           - xiaom
           - zazasa
           - zzacharo
     repositories:
+      .github:
+        description: Default community health files.
+        maintainers:
+          - lnielsen
+          - ntarocco
+          - ppanero
+          - slint
+        state: stable
+        type: independent
       autobot:
         description: Bot-assistant for Invenio maintainers.
         maintainers:
           - slint
         state: alpha
+        type: independent
+      babel-edtf:
+        description: Localization for EDTF (Extended Date Time Format) date strings.
+        maintainers:
+          - lnielsen
+        state: stable
         type: independent
       base32-lib:
         description: Library to generate, encode and decode random base32 strings.
@@ -354,6 +370,11 @@ orgs:
           - diegodelemos
         state: stable
         type: independent
+      docker-services-cli:
+        description: Infrastruce services for local and CI tests.
+        state: stable
+        maintainers:
+          - ppanero
       docs-invenio-rdm:
         description: InvenioRDM docs
         maintainers:
@@ -571,12 +592,6 @@ orgs:
           - ppanero
           - slint
           - zzacharo
-        state: alpha
-        type: service
-      invenio-app-demomarc21:
-        description: Demo of an MARC21 based Invenio flavour.
-        maintainers:
-          - lnielsen
         state: alpha
         type: service
       invenio-app-ils:
@@ -1081,6 +1096,13 @@ orgs:
         maintainers:
           - fenekku
           - ppanero
+      invenio-swh:
+        description: Support for onward deposit of software artifacts to Software Heritage.
+        state: alpha
+        type: addon
+        maintainers:
+          - alexsdutton
+          - ppanero
       invenio-sse:
         description: Server Send Events for Invenio.
         maintainers:
@@ -1204,6 +1226,17 @@ orgs:
           pypideploy: false
         type: independent
         i18n: false
+      mockups:
+        description: Mockups
+        maintainers:
+          - lnielsen
+        state: planning
+        travis:
+          active: false
+          pypideploy: false
+        type: independent
+        i18n: false
+        url: ''
       opensource:
         description: Repository for issues, documentation and other matters related to management of open source at Invenio Software.
         maintainers:
@@ -1223,6 +1256,16 @@ orgs:
         travis:
           pypideploy: false
         type: independent
+        i18n: false
+      product-rdm:
+        description: InvenioRDM Product Roadmap
+        maintainers:
+          - lnielsen
+        state: stable
+        type: management
+        travis:
+          active: false
+          pypideploy: false
         i18n: false
       pynpm:
         description: Python interface to your NPM and package.json.
