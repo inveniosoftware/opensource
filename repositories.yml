@@ -1138,6 +1138,12 @@ orgs:
           - slint
         state: stable
         type: auth
+      invenio-vocabularies:
+        description: Invenio module for managing vocabularies.
+        maintainers:
+          - slint
+        state: alpha
+        type: metadata
       invenio-webhooks:
         description: Invenio module for processing webhook events.
         maintainers:
