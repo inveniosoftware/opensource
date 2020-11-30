@@ -182,6 +182,7 @@ orgs:
           - ntarocco
           - okraskaj
           - omelkonian
+          - origliante
           - Osso
           - otron
           - pamfilos
@@ -236,6 +237,12 @@ orgs:
         type: independent
       autobot:
         description: Bot-assistant for Invenio maintainers.
+        maintainers:
+          - slint
+        state: alpha
+        type: independent
+      automation-tools:
+        description: Automation tools for Invenio.
         maintainers:
           - slint
         state: alpha
@@ -869,6 +876,8 @@ orgs:
         branches:
           - master
           - maint-1.0
+        travis:
+          active: false
         state: stable
         type: auth
       invenio-openaire:
@@ -1142,6 +1151,8 @@ orgs:
         description: Invenio module for managing vocabularies.
         maintainers:
           - slint
+          - kprzerwa
+          - FlorianCassayre
         state: alpha
         type: metadata
       invenio-webhooks:
