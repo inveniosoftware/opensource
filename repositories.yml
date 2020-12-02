@@ -379,7 +379,7 @@ orgs:
         state: stable
         type: independent
       docker-services-cli:
-        description: Infrastruce services for local and CI tests.
+        description: Infrastructure services for local and CI tests.
         state: stable
         maintainers:
           - ppanero
