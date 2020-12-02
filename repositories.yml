@@ -43,7 +43,9 @@ orgs:
         permission: maintain
         repositories:
           - cookiecutter-invenio-rdm
+          - demo-inveniordm
           - docker-invenio
+          - docs-invenio-rdm
           - flask-resources
           - helm-invenio
           - invenio-app-rdm
