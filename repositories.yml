@@ -338,6 +338,7 @@ orgs:
         description: Python API wrapper for the DataCite Metadata Store API.
         maintainers:
           - lnielsen
+          - tmorrell
         state: stable
         type: independent
       dcxml:
