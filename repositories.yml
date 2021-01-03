@@ -387,7 +387,6 @@ orgs:
         description: InvenioILS docs
         maintainers:
           - kprzerwa
-          - topless
           - zzacharo
         type: docs
       dojson:
@@ -598,7 +597,6 @@ orgs:
         description: Integrated Library System (ILS) flavour of Invenio.
         maintainers:
           - kprzerwa
-          - topless
           - zzacharo
         state: alpha
         type: service
@@ -652,9 +650,7 @@ orgs:
         maintainers:
           - jma
           - kprzerwa
-          - ludmilamarian
           - ntarocco
-          - topless
           - zzacharo
         state: alpha
         type: addon
@@ -964,14 +960,12 @@ orgs:
       invenio-records-editor:
         description: Record editor for Invenio (Python part).
         maintainers:
-          - topless
           - zzacharo
         state: alpha
         type: metadata
       invenio-records-editor-js:
         description: Record editor for Invenio (JavaScript part).
         maintainers:
-          - topless
           - zzacharo
         state: alpha
         type: metadata
@@ -1290,7 +1284,6 @@ orgs:
         description: Single Page App built with React for InvenioILS.
         maintainers:
           - kprzerwa
-          - topless
           - zzacharo
         state: alpha
         type: service
