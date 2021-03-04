@@ -58,6 +58,7 @@ orgs:
           - invenio-s3
           - invenio-saml
           - invenio-sitemap
+          - invenio-vocabularies
           - marshmallow-utils
           - react-invenio-deposit
           - react-invenio-forms
