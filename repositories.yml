@@ -75,7 +75,7 @@ orgs:
         members:
           - aaccomazzi
           - adrianp
-          - alexsdutton
+          - alexdutton
           - alizeepace
           - anastass
           - andrewm89
@@ -1096,7 +1096,7 @@ orgs:
         state: alpha
         type: addon
         maintainers:
-          - alexsdutton
+          - alexdutton
         branches:
           - main
         default_branch: main
