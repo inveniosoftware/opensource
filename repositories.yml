@@ -474,6 +474,9 @@ orgs:
         maintainers:
           - ppanero
           - lnielsen
+        branches:
+          - master
+          - maint-0.7
         state: alpha
         type: independent
       flask-security-fork:
@@ -610,6 +613,9 @@ orgs:
           - ppanero
           - slint
           - zzacharo
+        branches:
+          - master
+          - maint-6.0
         state: alpha
         type: service
       invenio-app-ils:
@@ -706,6 +712,9 @@ orgs:
         description: Invenio communities module.
         maintainers:
           - lnielsen
+        branches:
+          - master
+          - maint-2.5
         state: alpha
         type: addon
       invenio-config:
@@ -752,6 +761,9 @@ orgs:
           - lnielsen
           - ppanero
           - zzacharo
+        branches:
+          - master
+          - maint-0.13
         state: alpha
         type: deposit
       invenio-exporter:
@@ -954,6 +966,9 @@ orgs:
           - lnielsen
           - ppanero
           - zzacharo
+        branches:
+          - master
+          - maint-0.16
         state: alpha
         type: metadata
       invenio-rdm-records:
@@ -965,6 +980,7 @@ orgs:
           - zzacharo
         branches:
           - master
+          - maint-0.32
         state: alpha
         type: metadata
       invenio-records:
@@ -1012,6 +1028,7 @@ orgs:
           - zzacharo
         branches:
           - master
+          - maint-0.12
         state: beta
         type: metadata
       invenio-records-rest:
@@ -1045,6 +1062,9 @@ orgs:
           - fenekku
           - ppanero
           - zzacharo
+        branches:
+          - master
+          - maint-1.0
         state: alpha
         type: files
       invenio-saml:
@@ -1148,8 +1168,10 @@ orgs:
         maintainers:
           - slint
           - kprzerwa
-          - FlorianCassayre
         state: alpha
+        branches:
+          - master
+          - maint-0.8
         type: metadata
       invenio-webhooks:
         description: Invenio module for processing webhook events.
@@ -1220,12 +1242,15 @@ orgs:
         pypi: false
         url: ''
       marshmallow-utils:
-          description: Utilities for Marshmallow.
-          maintainers:
-            - lnielsen
-          state: alpha
-          type: independent
-          i18n: false
+        description: Utilities for Marshmallow.
+        maintainers:
+          - lnielsen
+        state: alpha
+        branches:
+          - master
+          - maint-0.5
+        type: independent
+        i18n: false
       metainvenio:
         description: CLI management tool for Invenio projects.
         maintainers:
@@ -1312,6 +1337,9 @@ orgs:
           - fenekku
           - zzacharo
         state: alpha
+        branches:
+          - master
+          - maint-0.16
         type: deposit
         pypi: false
         i18n: false
@@ -1320,6 +1348,9 @@ orgs:
         maintainers:
           - fenekku
           - zzacharo
+        branches:
+          - master
+          - maint-0.8
         state: alpha
         type: base
         pypi: false
