@@ -37,14 +37,16 @@ orgs:
           - kristiholmes
           - mat-gro
           - max-moser
-          - mfenner
           - mb-wali
+          - mfenner
+          - mfenner
           - mitsosf
           - Pineirin
           - ppanero
           - rekt-hard
           - saragon02
           - tmorrell
+          - utnapischtim
           - zzacharo
       inveniordm-maintainers:
         permission: maintain
@@ -240,6 +242,7 @@ orgs:
           - topless
           - traviscb
           - tsgit
+          - utnapischtim
           - vladbmihaescu
           - WohthaN
           - xiaom
@@ -605,7 +608,7 @@ orgs:
         state: stable
         type: base
       invenio-app-rdm:
-        description: RDM flavour of Invenio
+        description: Turn-key research data management platform.
         maintainers:
           - fenekku
           - lnielsen
@@ -618,6 +621,7 @@ orgs:
           - maint-6.0
         state: alpha
         type: service
+        url: https://inveniordm.docs.cern.ch
       invenio-app-ils:
         description: Integrated Library System (ILS) flavour of Invenio.
         maintainers:
