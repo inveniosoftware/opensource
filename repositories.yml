@@ -21,6 +21,8 @@ orgs:
           - tiborsimko
           - zzacharo
       inveniordm:
+        permission: push
+        repositories: "product-rdm"
         members:
           - alexdutton
           - baldemir
@@ -39,12 +41,13 @@ orgs:
           - max-moser
           - mb-wali
           - mfenner
-          - mfenner
           - mitsosf
           - Pineirin
           - ppanero
           - rekt-hard
+          - richard-jones
           - saragon02
+          - Steven-Eardley
           - tmorrell
           - utnapischtim
           - zzacharo
@@ -223,6 +226,7 @@ orgs:
           - raqueljimenez
           - rekt-hard
           - remileduc
+          - richard-jones
           - rikirenz
           - robertwinchell
           - robk5uj
@@ -236,6 +240,7 @@ orgs:
           - sourabhlal
           - spirosdelviniotis
           - Sporeal
+          - Steven-Eardley
           - switowski
           - Theer108
           - tiborsimko
@@ -443,10 +448,15 @@ orgs:
         state: stable
         type: independent
       flask-cli:
-        description: Flask-CLI is a backport of Flask 1.0's new click integration to Flask
-          0.10.
+        description: Flask-CLI is a backport of Flask 1.0's new click integration to Flask 0.10.
         maintainers:
           - lnielsen
+        state: stable
+        type: independent
+      flask-collect-invenio:
+        description: Drop-in replacement of Flask-Collect with support for Flask 2.x.
+        maintainers:
+          - max-moser
         state: stable
         type: independent
       flask-iiif:
@@ -1132,6 +1142,8 @@ orgs:
         type: addon
         maintainers:
           - alexdutton
+          - richard-jones
+          - Steven-Eardley
         branches:
           - main
         default_branch: main
@@ -1292,17 +1304,19 @@ orgs:
         pypi: false
         type: independent
         i18n: false
-      # product-rdm:
-      #   description: InvenioRDM Product Roadmap
-      #   default_branch: main
-      #   maintainers:
-      #     - lnielsen
-      #   state: stable
-      #   type: management
-      #   travis:
-      #     active: false
-      #   pypi: false
-      #   i18n: false
+      product-rdm:
+        description: InvenioRDM Product Roadmap
+        default_branch: main
+        maintainers:
+          - lnielsen
+        branches:
+          - main
+        state: stable
+        type: management
+        travis:
+          active: false
+        pypi: false
+        i18n: false
       pynpm:
         description: Python interface to your NPM and package.json.
         maintainers:
