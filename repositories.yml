@@ -24,7 +24,7 @@ orgs:
         permission: push
         repositories: "product-rdm"
         members:
-          - alexdutton
+          - andrewbattista
           - baldemir
           - carsonicator
           - cfgamboa
@@ -49,6 +49,7 @@ orgs:
           - saragon02
           - Steven-Eardley
           - tmorrell
+          - ugswork
           - utnapischtim
           - zzacharo
       inveniordm-maintainers:
@@ -88,6 +89,7 @@ orgs:
           - alexdutton
           - alizeepace
           - anastass
+          - andrewbattista
           - andrewm89
           - annatrz
           - antonis-manaras
@@ -247,6 +249,7 @@ orgs:
           - topless
           - traviscb
           - tsgit
+          - ugswork
           - utnapischtim
           - vladbmihaescu
           - WohthaN
