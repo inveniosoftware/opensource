@@ -638,6 +638,7 @@ orgs:
       invenio-app-ils:
         description: Integrated Library System (ILS) flavour of Invenio.
         maintainers:
+          - jrcastro2
           - kprzerwa
           - zzacharo
         state: alpha
@@ -690,6 +691,7 @@ orgs:
       invenio-circulation:
         description: Library circulation module for Invenio.
         maintainers:
+          - jrcastro2
           - jma
           - kprzerwa
           - ntarocco
@@ -1348,6 +1350,7 @@ orgs:
       react-invenio-app-ils:
         description: Single Page App built with React for InvenioILS.
         maintainers:
+          - jrcastro2
           - kprzerwa
           - zzacharo
         state: alpha
