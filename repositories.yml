@@ -64,11 +64,14 @@ orgs:
           - helm-invenio
           - invenio-app-rdm
           - invenio-cli
+          - invenio-communities
           - invenio-drafts-resources
           - invenio-exporter
+          - invenio-ocfl
           - invenio-rdm-records
           - invenio-records-permissions
           - invenio-records-resources
+          - invenio-requests
           - invenio-s3
           - invenio-saml
           - invenio-sitemap
@@ -914,6 +917,15 @@ orgs:
           - maint-1.0
         state: stable
         type: auth
+      invenio-ocfl:
+        description: OCFL module for InvenioRDM.
+        maintainers:
+          - lnielsen
+          - dfdan
+        branches:
+          - main
+        state: alpha
+        type: addon
       invenio-openaire:
         description: Invenio module for OpenAIRE integration.
         maintainers:
@@ -933,6 +945,15 @@ orgs:
         description: 'ORCID integration for Invenio.'
         maintainers:
           - egabancho
+        state: alpha
+        type: addon
+      invenio-owncloud:
+        description: Integration of ownCloud in InvenioRDM.
+        maintainers:
+          - lnielsen
+          - jennur
+        branches:
+          - main
         state: alpha
         type: addon
       invenio-pages:
@@ -1069,6 +1090,16 @@ orgs:
           - drjova
         state: stable
         type: metadata
+      invenio-requests:
+        description: Request handling module
+        maintainers:
+          - lnielsen
+          - max-moser
+          - fenekku
+        branches:
+          - master
+        state: alpha
+        type: independent
       invenio-rest:
         description: REST API support for Invenio.
         maintainers:
