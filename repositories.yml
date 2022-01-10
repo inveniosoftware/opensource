@@ -24,6 +24,7 @@ orgs:
         permission: push
         repositories: "product-rdm"
         members:
+          - acaland
           - andrewbattista
           - baldemir
           - carsonicator
@@ -32,6 +33,7 @@ orgs:
           - duanoc
           - effervescent-shot
           - fenekku
+          - fmarco76
           - hbayindir
           - herrner
           - ines-cruz
@@ -50,6 +52,7 @@ orgs:
           - ppanero
           - rekt-hard
           - richard-jones
+          - rrotondo
           - saragon02
           - Steven-Eardley
           - tmorrell
@@ -92,6 +95,7 @@ orgs:
         repositories: "*"
         members:
           - aaccomazzi
+          - acaland
           - adrianp
           - alexdutton
           - alizeepace
@@ -138,6 +142,7 @@ orgs:
           - fenekku
           - fjorba
           - FlorianCassayre
+          - fmarco76
           - fpoli
           - frankois
           - frecar
@@ -212,7 +217,6 @@ orgs:
           - mvidalgarcia
           - natsheh
           - nharraud
-          - nikofil
           - nkalodimas
           - NRodriguezcuellar
           - ntarocco
@@ -228,7 +232,6 @@ orgs:
           - pazembrz
           - pbroz
           - pedrogaudencio
-          - petros-ioannidis
           - Pineirin
           - pombredanne
           - ppanero
@@ -240,10 +243,10 @@ orgs:
           - rekt-hard
           - remileduc
           - richard-jones
-          - rikirenz
           - robertwinchell
           - robk5uj
           - romanchyla
+          - rrotondo
           - rsripada
           - SamiHiltunen
           - sbujam
