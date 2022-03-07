@@ -668,7 +668,7 @@ orgs:
         description: Integrated Library System (ILS) flavour of Invenio.
         maintainers:
           - jrcastro2
-          - kprzerwa
+          - kpsherva
           - zzacharo
         state: alpha
         type: service
@@ -722,7 +722,7 @@ orgs:
         maintainers:
           - jrcastro2
           - jma
-          - kprzerwa
+          - kpsherva
           - ntarocco
           - zzacharo
         state: alpha
@@ -1245,7 +1245,7 @@ orgs:
         description: Invenio module for managing vocabularies.
         maintainers:
           - slint
-          - kprzerwa
+          - kpsherva
         state: alpha
         branches:
           - master
@@ -1408,7 +1408,7 @@ orgs:
         description: Single Page App built with React for InvenioILS.
         maintainers:
           - jrcastro2
-          - kprzerwa
+          - kpsherva
           - zzacharo
         state: alpha
         type: service
@@ -1470,7 +1470,7 @@ orgs:
         description: Invenio v3 Training Material
         maintainers:
           - diegodelemos
-          - kprzerwa
+          - kpsherva
           - lnielsen
           - ntarocco
           - slint
