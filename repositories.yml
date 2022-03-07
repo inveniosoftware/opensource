@@ -460,6 +460,18 @@ orgs:
           - drjova
         state: stable
         type: independent
+      eslint-config-invenio:
+        description: ESLint config/preset for Invenio modules.
+        maintainers:
+          - ntarocco
+          - zzacharo
+          - kprzerwa
+        branches:
+          - main
+        state: alpha
+        pypi: false
+        type: independent
+        i18n: false
       flask-celeryext:
         description: Simple integration layer between Celery and Flask.
         maintainers:
