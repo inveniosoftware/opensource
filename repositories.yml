@@ -16,7 +16,7 @@ orgs:
           - diegodelemos
           - drjova
           - egabancho
-          - kprzerwa
+          - kpsherva
           - ppanero
           - tiborsimko
           - zzacharo
@@ -194,7 +194,7 @@ orgs:
           - kneczaj
           - KonstantinaStoikou
           - konstantinoskostis
-          - kprzerwa
+          - kpsherva
           - krzysztof
           - ksachs
           - Leats
@@ -432,7 +432,7 @@ orgs:
       docs-invenio-ils:
         description: InvenioILS docs
         maintainers:
-          - kprzerwa
+          - kpsherva
           - zzacharo
         type: docs
       dojson:
@@ -466,7 +466,7 @@ orgs:
         maintainers:
           - ntarocco
           - zzacharo
-          - kprzerwa
+          - kpsherva
         branches:
           - main
         state: alpha
