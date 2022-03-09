@@ -13,16 +13,19 @@ orgs:
         permission: maintain
         repositories: "*"
         members:
-          - diegodelemos
-          - drjova
-          - egabancho
-          - kpsherva
+          - kprzerwa
           - ppanero
-          - tiborsimko
           - zzacharo
+      translation-maintainers:
+        permission: maintain
+        repositories: "*"
+        members:
+          - mb-wali
       inveniordm:
         permission: push
-        repositories: "product-rdm"
+        repositories:
+          - "product-rdm"
+          - "letters-of-support"
         members:
           - acaland
           - andrewbattista
@@ -34,27 +37,34 @@ orgs:
           - effervescent-shot
           - ekate
           - fenekku
+          - florianfranz
           - fmarco76
+          - gqueiroz
+          - hbaeyens
           - hbayindir
           - herrner
           - ines-cruz
           - j-bauer
           - jennur
           - kbg
+          - knodel
           - kristiholmes
           - lhenze
+          - M3nin0
           - mat-gro
           - max-moser
           - mb-wali
           - mfenner
           - mitsosf
           - mteknos
+          - pdesalvo
           - Pineirin
           - ppanero
           - rekt-hard
           - richard-jones
           - rrotondo
           - saragon02
+          - schuermannh
           - Steven-Eardley
           - tmorrell
           - ugswork
@@ -467,6 +477,7 @@ orgs:
           - ntarocco
           - zzacharo
           - kpsherva
+          - jrcastro2
         branches:
           - main
         state: alpha
@@ -1308,6 +1319,14 @@ orgs:
           - slint
         state: alpha
         type: independent
+        i18n: false
+      letters-of-support:
+        description: Repository for letters of support for InvenioRDM project.
+        maintainers:
+          - lnielsen
+        state: stable
+        type: management
+        pypi: false
         i18n: false
       license-changer:
         description: Scripts for automating license change for Invenio.
