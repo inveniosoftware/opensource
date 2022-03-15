@@ -32,6 +32,7 @@ orgs:
           - baldemir
           - carsonicator
           - cfgamboa
+          - chriz-uniba
           - dfdan
           - duanoc
           - effervescent-shot
@@ -69,6 +70,8 @@ orgs:
           - tmorrell
           - ugswork
           - utnapischtim
+          - wgresshoff
+          - wuschLOR
           - zzacharo
       inveniordm-maintainers:
         permission: maintain
