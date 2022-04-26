@@ -13,7 +13,7 @@ orgs:
         permission: maintain
         repositories: "*"
         members:
-          - kprzerwa
+          - kpsherva
           - ppanero
           - zzacharo
       translation-maintainers:
