@@ -96,6 +96,7 @@ orgs:
           - invenio-s3
           - invenio-saml
           - invenio-sitemap
+          - invenio-users-resources
           - invenio-vocabularies
           - marshmallow-utils
           - react-invenio-deposit
@@ -1255,6 +1256,14 @@ orgs:
         maintainers:
           - slint
         state: stable
+        type: auth
+      invenio-users-resources:
+        description: Management APIs for users and roles/groups.
+        maintainers:
+          - lnielsen
+        branches:
+          - master
+        state: alpha
         type: auth
       invenio-vocabularies:
         description: Invenio module for managing vocabularies.
