@@ -106,6 +106,7 @@ orgs:
           - max-moser
           - ppanero
           - zzacharo
+          - utnapischtim
       developers:
         permission: push
         repositories: "*"
