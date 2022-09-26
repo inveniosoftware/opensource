@@ -83,6 +83,7 @@ orgs:
           - docs-invenio-rdm
           - flask-resources
           - helm-invenio
+          - invenio-administration
           - invenio-app-rdm
           - invenio-cli
           - invenio-communities
@@ -103,6 +104,7 @@ orgs:
           - react-invenio-forms
         members:
           - fenekku
+          - jrcastro2
           - max-moser
           - ppanero
           - zzacharo
@@ -381,7 +383,7 @@ orgs:
         type: core
         url: ''
       cookiecutter-invenio-rdm:
-        description: Cookiecutter template for a new Invenio RDM instance.
+        description: Cookiecutter template for a new InvenioRDM instance.
         state: alpha
         maintainers:
           - lnielsen
@@ -390,6 +392,15 @@ orgs:
           - zzacharo
         pypi: false
         type: rdm
+        url: ''
+      cookiecutter-invenio-ils:
+        description: Cookiecutter template for a new InvenioILS instance.
+        state: alpha
+        maintainers:
+          - ppanero
+          - zzacharo
+        pypi: false
+        type: ils
         url: ''
       counter-robots:
         description: Library for COUNTER-compliant detection of machines and robots.
@@ -516,7 +527,6 @@ orgs:
         maintainers:
           - slint
           - ChiaraBi
-          - drjova
         state: alpha
         type: independent
       flask-kvsession:
@@ -528,8 +538,6 @@ orgs:
         description: Flask-Menu is a Flask extension that adds support for generating
           menus.
         maintainers:
-          - drjova
-          - jirikuncar
           - slint
         state: stable
         type: independent
@@ -661,6 +669,15 @@ orgs:
           - maint-1.0
         state: stable
         type: base
+      invenio-administration:
+        description: Invenio administration module.
+        maintainers:
+          - jrcastro2
+          - kpsherva
+        branches:
+          - master
+        state: alpha
+        type: base
       invenio-app:
         description: WSGI, Celery and CLI applications for Invenio flavours.
         maintainers:
@@ -702,7 +719,6 @@ orgs:
       invenio-assets:
         description: Invenio media assets management module.
         maintainers:
-          - drjova
           - lnielsen
         branches:
           - master
@@ -787,7 +803,6 @@ orgs:
       invenio-config:
         description: Invenio configuration loading module.
         maintainers:
-          - drjova
           - lnielsen
           - tiborsimko
         state: stable
@@ -859,14 +874,12 @@ orgs:
         description: REST API for uploading/downloading files for Invenio.
         maintainers:
           - lnielsen
-          - drjova
         state: alpha
         type: files
       invenio-formatter:
         description: Invenio module for formatting the bibliographic records.
         maintainers:
           - lnielsen
-          - drjova
         state: stable
         type: base
       invenio-github:
@@ -1022,7 +1035,6 @@ orgs:
         description: Invenio module for previewing files.
         maintainers:
           - lnielsen
-          - drjova
         state: alpha
         type: files
       invenio-previewer-ispy:
@@ -1093,14 +1105,12 @@ orgs:
         description: Invenio modules that integrates records and files.
         maintainers:
           - lnielsen
-          - drjova
         state: alpha
         type: files
       invenio-records-js:
         description: Invenio-Records client library for building the web UI.
         maintainers:
           - ntarocco
-          - drjova
         state: alpha
         pypi: false
         type: deposit
@@ -1130,7 +1140,6 @@ orgs:
         description: Invenio records user interface module.
         maintainers:
           - lnielsen
-          - drjova
         state: stable
         type: metadata
       invenio-requests:
@@ -1147,7 +1156,6 @@ orgs:
         description: REST API support for Invenio.
         maintainers:
           - lnielsen
-          - drjova
         state: stable
         type: base
       invenio-s3:
@@ -1182,7 +1190,6 @@ orgs:
         maintainers:
           - ntarocco
           - zzacharo
-          - drjova
         state: stable
         pypi: false
         type: metadata
@@ -1190,7 +1197,6 @@ orgs:
       invenio-search-ui:
         description: UI for Invenio Search.
         maintainers:
-          - drjova
           - lnielsen
         branches:
           - master
@@ -1232,7 +1238,6 @@ orgs:
         description: Server Send Events for Invenio.
         maintainers:
           - egabancho
-          - drjova
         state: alpha
         type: addon
       invenio-stats:
@@ -1247,7 +1252,7 @@ orgs:
       invenio-theme:
         description: Invenio standard theme.
         maintainers:
-          - drjova
+          - jrcastro2
           - lnielsen
         branches:
           - master
