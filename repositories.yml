@@ -703,7 +703,11 @@ orgs:
           - zzacharo
         branches:
           - master
+          - maint-4.0
           - maint-6.0
+          - maint-6.x
+          - maint-7.0
+          - maint-9.x
         state: alpha
         type: service
         url: https://inveniordm.docs.cern.ch
