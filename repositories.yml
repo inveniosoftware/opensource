@@ -345,14 +345,14 @@ orgs:
           - slint
         state: alpha
         type: independent
-      claimstore:
-        description: ClaimStore
-        maintainers:
-          - jbenito3
-          - tiborsimko
-        state: alpha
-        pypi: false
-        type: service
+      # claimstore:  ARCHIVED!
+      #   description: ClaimStore
+      #   maintainers:
+      #     - jbenito3
+      #     - tiborsimko
+      #   state: alpha
+      #   pypi: false
+      #   type: service
       cookiecutter-invenio-datamodel:
         description: Cookiecutter template for an Invenio data model.
         maintainers:
@@ -400,8 +400,13 @@ orgs:
         description: Cookiecutter template for a new InvenioILS instance.
         state: alpha
         maintainers:
-          - ppanero
+          - jrcastro2
+          - kpsherva
+          - ntarocco
           - zzacharo
+        branches:
+          - main
+        default_branch: main
         pypi: false
         type: ils
         url: ''
@@ -500,8 +505,6 @@ orgs:
           - zzacharo
           - kpsherva
           - jrcastro2
-        branches:
-          - main
         state: alpha
         pypi: false
         type: independent
@@ -678,7 +681,8 @@ orgs:
           - jrcastro2
           - kpsherva
         branches:
-          - master
+          - main
+        default_branch: main
         state: alpha
         type: base
       invenio-app:
@@ -934,12 +938,12 @@ orgs:
           - lnielsen
         state: stable
         type: base
-      invenio-marc21:
-        description: Nice defaults for Invenio overlays using MARC21.
-        maintainers:
-          - tiborsimko
-        state: alpha
-        type: addon
+      # invenio-marc21: ARCHIVED!
+      #   description: Nice defaults for Invenio overlays using MARC21.
+      #   maintainers:
+      #     - tiborsimko
+      #   state: alpha
+      #   type: addon
       invenio-migrator:
         description: Utilities for migrating past Invenio versions to Invenio 3.0.
         maintainers:
@@ -983,6 +987,7 @@ orgs:
           - dfdan
         branches:
           - main
+        default_branch: main
         state: alpha
         type: addon
       invenio-openaire:
@@ -1000,12 +1005,12 @@ orgs:
           - slint
         state: alpha
         type: addon
-      invenio-orcid:
-        description: 'ORCID integration for Invenio.'
-        maintainers:
-          - egabancho
-        state: alpha
-        type: addon
+      # invenio-orcid: ARCHIVED!
+      #   description: 'ORCID integration for Invenio.'
+      #   maintainers:
+      #     - egabancho
+      #   state: alpha
+      #   type: addon
       invenio-owncloud:
         description: Integration of ownCloud in InvenioRDM.
         maintainers:
@@ -1013,6 +1018,7 @@ orgs:
           - jennur
         branches:
           - main
+        default_branch: main
         state: alpha
         type: addon
       invenio-pages:
@@ -1455,6 +1461,7 @@ orgs:
           - zzacharo
         state: alpha
         type: service
+        pypi: false
       react-invenio-deposit:
         description: React application for Invenio deposit forms.
         maintainers:
