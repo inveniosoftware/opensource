@@ -431,6 +431,17 @@ orgs:
           - lnielsen
         state: stable
         type: independent
+      demo-invenioils:
+        description: Demosite for InvenioILS.
+        maintainers:
+          - jrcastro2
+          - kpsherva
+          - ntarocco
+          - zzacharo
+        state: stable
+        type: independent
+        url: https://invenioils.web.cern.ch
+        pypi: false
       demo-inveniordm:
         description: Demosite for InvenioRDM.
         maintainers:
