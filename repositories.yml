@@ -438,6 +438,9 @@ orgs:
           - kpsherva
           - ntarocco
           - zzacharo
+        branches:
+          - main
+        default_branch: main
         state: stable
         type: independent
         url: https://invenioils.web.cern.ch
