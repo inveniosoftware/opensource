@@ -78,6 +78,7 @@ orgs:
       inveniordm-maintainers:
         permission: maintain
         repositories:
+          - alertabot
           - cookiecutter-invenio-rdm
           - demo-inveniordm
           - docker-invenio
@@ -306,6 +307,16 @@ orgs:
           - ppanero
           - slint
         state: stable
+        type: independent
+      alertabot:
+        description: Notifications bot for Invenio maintainers.
+        maintainers:
+          - ntarocco
+          - avivace
+        branches:
+          - main
+        default_branch: main
+        state: alpha
         type: independent
       autobot:
         description: Bot-assistant for Invenio maintainers.
