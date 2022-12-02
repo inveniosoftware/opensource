@@ -92,6 +92,7 @@ orgs:
           - invenio-drafts-resources
           - invenio-exporter
           - invenio-ocfl
+          - invenio-rdm-migrator
           - invenio-rdm-records
           - invenio-records-permissions
           - invenio-records-resources
@@ -1107,6 +1108,16 @@ orgs:
           - maint-0.16
         state: alpha
         type: metadata
+      invenio-rdm-migrator:
+        description: Migration module for InvenioRDM.
+        maintainers:
+          - lnielsen
+          - ppanero
+          - zzacharo
+        branches:
+          - master
+        state: alpha
+        type: addon
       invenio-rdm-records:
         description: DataCite-based data model for InvenioRDM flavour.
         maintainers:
