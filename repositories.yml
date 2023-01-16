@@ -14,7 +14,9 @@ orgs:
         repositories: "*"
         members:
           - kpsherva
+          - max-moser
           - ppanero
+          - utnapischtim
           - zzacharo
       translation-maintainers:
         permission: maintain
