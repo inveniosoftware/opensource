@@ -1364,6 +1364,8 @@ orgs:
           - jbenito3
           - lnielsen
           - tiborsimko
+          - carsonicator
+          - saragon02
         state: stable
         pypi: false
         type: service
