@@ -488,7 +488,7 @@ orgs:
       docker-invenio:
         description: Docker base images for Invenio.
         maintainers:
-          - diegodelemos
+          - inveniobot
         state: stable
         type: independent
       docker-services-cli:
