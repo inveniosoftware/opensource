@@ -29,6 +29,7 @@ orgs:
           - "product-rdm"
           - "letters-of-support"
         members:
+          - 0einstein0
           - acaland
           - ahoyi
           - andrewbattista
@@ -54,8 +55,8 @@ orgs:
           - karkraeg
           - kbg
           - knodel
-          - kristiholmes
           - kpsherva
+          - kristiholmes
           - lhenze
           - M3nin0
           - mat-gro
@@ -72,6 +73,7 @@ orgs:
           - RosaLo
           - rrotondo
           - saragon02
+          - SarahW91
           - schuermannh
           - Steven-Eardley
           - tmorrell
@@ -79,6 +81,7 @@ orgs:
           - utnapischtim
           - wgresshoff
           - wuschLOR
+          - yashlamba
           - zzacharo
       inveniordm-maintainers:
         permission: maintain
@@ -122,6 +125,7 @@ orgs:
         permission: push
         repositories: "*"
         members:
+          - 0einstein0
           - aaccomazzi
           - acaland
           - adrianp
@@ -248,9 +252,9 @@ orgs:
           - monaawi
           - MSusik
           - mteknos
+          - mustafasoylu
           - mvesper
           - mvidalgarcia
-          - mustafasoylu
           - natsheh
           - nharraud
           - nkalodimas
@@ -267,8 +271,8 @@ orgs:
           - pazembrz
           - pbroz
           - pedrogaudencio
-          - Pineirin
           - philippgualdi
+          - Pineirin
           - pombredanne
           - ppanero
           - ppiotr
@@ -287,6 +291,7 @@ orgs:
           - rrotondo
           - rsripada
           - SamiHiltunen
+          - SarahW91
           - sbujam
           - sefeg
           - shesselbach
@@ -308,6 +313,7 @@ orgs:
           - vladbmihaescu
           - WohthaN
           - xiaom
+          - yashlamba
           - zazasa
           - zzacharo
     repositories:
