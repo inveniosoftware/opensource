@@ -356,6 +356,13 @@ orgs:
           - slint
         state: alpha
         type: independent
+      awesome-invenio:
+        description: A curated list of awesome InvenioRDM and Invenio extensions, overlays and resources.
+        state: alpha
+        maintainers:
+          - egabancho
+          - Herrner
+        type: management
       babel-edtf:
         description: Localization for EDTF (Extended Date Time Format) date strings.
         maintainers:
