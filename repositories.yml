@@ -13,9 +13,10 @@ orgs:
         permission: maintain
         repositories: "*"
         members:
+          - alejandromumo
           - kpsherva
           - max-moser
-          - ppanero
+          - ptamarit
           - utnapischtim
           - zzacharo
       translation-maintainers:
