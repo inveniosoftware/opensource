@@ -761,6 +761,7 @@ orgs:
           - ntarocco
           - ppanero
           - slint
+          - yashlamba
           - zzacharo
         branches:
           - master
