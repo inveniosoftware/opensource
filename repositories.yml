@@ -1108,6 +1108,12 @@ orgs:
           - slint
         state: planning
         type: addon
+      invenio-preservation-sync:
+        description: Sync data with preservation systems
+        maintainers:
+          - liptakpanna
+        state: alpha
+        type: addon
       invenio-previewer:
         description: Invenio module for previewing files.
         maintainers:
